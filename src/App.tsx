@@ -554,9 +554,12 @@ function App() {
                         <span>{t.hero.tryButton}</span>
                         <ChevronRight className="w-4 h-4" />
                       </Link>
-                      <button className="flex items-center justify-center space-x-2 px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+                      <Link 
+                        to="/demos"
+                        className="flex items-center justify-center space-x-2 px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+                      >
                         <span>{t.hero.watchDemo}</span>
-                      </button>
+                      </Link>
                     </div>
                   </div>
                   <div className="flex-1">
@@ -615,9 +618,11 @@ function App() {
                         </a>
                       </div>
                     ))}
-                    <div className="flex items-center justify-center p-6 bg-white dark:bg-slate-800 text-center">
-                      <p className="text-gray-600 dark:text-gray-300">{t.modelProviders.compatibleText}</p>
-                    </div>
+                  </div>
+                  <div className="col-span-full flex items-center justify-center py-6 px-8 bg-gradient-to-r from-indigo-50 to-blue-50 dark:from-slate-800 dark:to-indigo-900/30 text-center border-t border-gray-200 dark:border-gray-700">
+                    <p className="text-indigo-600 dark:text-indigo-300 font-medium tracking-wide text-sm md:text-base">
+                      {t.modelProviders.compatibleText}
+                    </p>
                   </div>
                 </div>
               </div>

@@ -11,7 +11,7 @@ interface Version {
   url?: string;
 }
 
-const CURRENT_VERSION = 'v0.0.9';
+const CURRENT_VERSION = 'v0.0.10';
 const GITHUB_RELEASE_BASE = `https://github.com/ThinkInAIXYZ/deepchat/releases/download/${CURRENT_VERSION}`;
 
 const downloads = {
