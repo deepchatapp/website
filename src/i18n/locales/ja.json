@@ -1,0 +1,383 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "download": "ダウンロード",
+    "demos": "使用例",
+    "docs": {
+      "title": "ドキュメント",
+      "items": [
+        { "title": "ドキュメントを見る", "href": "/docs" }
+      ]
+    },
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "DeepChat - デスクトップAIパートナー",
+    "subtitle": "高速、集中、ディープワークのために設計。DeepChatはAIの強力な機能をデスクトップに提供し、プライバシーと効率性を両立させ、生産的な作業のための理想的なパートナーとなります。",
+    "features": [
+      "超高速レスポンス - ネイティブアプリのパフォーマンスでシームレスな対話を実現",
+      "ディープワークフォーカス - 生産的で集中できる作業環境のために設計",
+      "プライバシー重視 - ローカル処理とセキュアなデータ処理"
+    ],
+    "tryButton": "体験を始める",
+    "watchDemo": "デモを見る"
+  },
+  "modelProviders": {
+    "title": "現在サポートされているモデルプロバイダー",
+    "subtitle": "DeepChatは主要なAIモデルプロバイダーと互換性があります",
+    "compatibleText": "openai/gemini API形式のモデルプロバイダーと互換性があります",
+    "providers": [
+      { "name": "Ollama", "logo": "/models/ollama.svg" },
+      { "name": "Deepseek", "logo": "/models/deepseek.svg" },
+      { "name": "Silicon", "logo": "/models/silicon.svg" },
+      { "name": "QwenLM", "logo": "/models/qwenlm.svg" },
+      { "name": "Doubao", "logo": "/models/doubao.svg" },
+      { "name": "MiniMax", "logo": "/models/minimax.svg" },
+      { "name": "Fireworks", "logo": "/models/fireworks.svg" },
+      { "name": "PPIO", "logo": "/models/ppio.svg" },
+      { "name": "OpenAI", "logo": "/models/openai.svg" },
+      { "name": "Gemini", "logo": "/models/gemini.svg" },
+      { "name": "GitHub Models", "logo": "/models/github.svg" },
+      { "name": "Moonshot", "logo": "/models/moonshot.svg" },
+      { "name": "OpenRouter", "logo": "/models/openrouter.svg" },
+      { "name": "Azure OpenAI", "logo": "/models/azure.svg" }
+    ]
+  },
+  "scenarios": {
+    "title": "デュアルアプリケーションシナリオ",
+    "subtitle": "個人とチームのためのインテリジェントアシスタントソリューション",
+    "tabs": {
+      "personal": "個人向け",
+      "enterprise": "企業向け"
+    },
+    "personal": [
+      {
+        "title": "文書処理と分析",
+        "description": "各種文書をアップロードし、インテリジェントな分析、コンテンツ抽出、翻訳を実現します。",
+        "features": [
+          "Excelデータの可視化",
+          "PPTコンテンツの抽出",
+          "文書の翻訳"
+        ],
+        "image": "/scenarios/knowledge-management.png"
+      },
+      {
+        "title": "パーソナルAIアシスタント",
+        "description": "知識の獲得、個人管理、作業支援のためのインテリジェントパートナー。",
+        "features": [
+          "知識Q&A",
+          "スケジュール管理",
+          "タスク支援"
+        ],
+        "image": "/scenarios/personal-efficiency.png"
+      },
+      {
+        "title": "学習コンパニオン",
+        "description": "パーソナライズされた学習計画、知識分析、練習問題生成で継続的な成長をサポート。",
+        "features": [
+          "パーソナライズされた学習パス",
+          "概念の詳細な解説",
+          "練習問題の生成"
+        ],
+        "image": "/scenarios/learning-assistant.png"
+      },
+      {
+        "title": "クリエイティブアシスタント",
+        "description": "多言語での執筆支援、創造性の刺激、コンテンツ品質の向上をサポート。",
+        "features": [
+          "多言語ライティング支援",
+          "創造的インスピレーション",
+          "コンテンツ最適化"
+        ],
+        "image": "/scenarios/creative-assistant.png"
+      }
+    ],
+    "enterprise": [
+      {
+        "title": "企業調査と市場分析",
+        "description": "内部財務データとリアルタイムの市場情報を組み合わせ、包括的な市場分析レポートとトレンド予測を生成。",
+        "features": [
+          "統合データ分析",
+          "トレンド予測支援",
+          "競合状況分析"
+        ],
+        "image": "/scenarios/business-process.png"
+      },
+      {
+        "title": "規制遵守レビュー",
+        "description": "内部ポリシー文書とオンラインの最新規制を比較し、潜在的なコンプライアンスリスクを特定。",
+        "features": [
+          "リアルタイム規制更新",
+          "コンプライアンスギャップ分析",
+          "リスク管理提案"
+        ],
+        "image": "/scenarios/team-collaboration.png"
+      },
+      {
+        "title": "インテリジェント市場情報",
+        "description": "内部競合情報とオンラインの最新動向を統合し、包括的な市場洞察と機会特定を提供。",
+        "features": [
+          "競合動向のリアルタイム追跡",
+          "消費者インサイト分析",
+          "市場機会の特定"
+        ],
+        "image": "/scenarios/dev-efficiency.png"
+      },
+      {
+        "title": "マルチソースデータレポート",
+        "description": "内部運用データと外部市場指標を組み合わせ、定期的な総合レポートとパーソナライズされたダッシュボードを自動生成。",
+        "features": [
+          "自動定期レポート",
+          "パーソナライズされたダッシュボード",
+          "異常と機会の通知"
+        ],
+        "image": "/scenarios/customer-service.png"
+      }
+    ]
+  },
+  "features": {
+    "title": "主な利点",
+    "subtitle": "AI体験を向上させる強力な機能",
+    "cards": [
+      {
+        "title": "Web検索統合",
+        "description": "リアルタイムの情報アクセス、カスタマイズ可能な検索エンジン、学術検索サポートを含む統合Web検索機能。",
+        "action": "詳細を見る"
+      },
+      {
+        "title": "文書処理",
+        "description": "複数の文書を同時にアップロードし、インテリジェントな分析、抽出、翻訳機能を提供。",
+        "action": "詳細を見る"
+      },
+      {
+        "title": "MCP統合",
+        "description": "モデル制御プロトコルを活用し、様々なAIモデルとのシームレスな統合と機能拡張を実現。",
+        "action": "詳細を見る"
+      },
+      {
+        "title": "マルチモデルサポート",
+        "description": "GPT、Claude、DeepSeekなど複数のAIモデルをサポートし、タスクに応じて最適なモデルを自動選択。",
+        "action": "詳細を見る"
+      }
+    ]
+  },
+  "privacy": {
+    "title": "セキュリティとプライバシー保護",
+    "features": {
+      "offline": {
+        "title": "完全ローカル",
+        "description": "すべての会話とデータ処理がデバイス上で行われ、絶対的なプライバシーを確保。"
+      },
+      "encrypted": {
+        "title": "厳格な保護",
+        "description": "高度な暗号化技術により、すべての情報を安全に保護。"
+      },
+      "control": {
+        "title": "完全な自律性",
+        "description": "データの使用と保存を完全に制御し、安心を提供。"
+      }
+    }
+  },
+  "footer": {
+    "rights": "© 2024 DeepChat. すべての権利を保有します。",
+    "description": "DeepChatはマルチプラットフォームのAIクライアントです。より多くの人々がAIの利便性を享受できるよう努めています。",
+    "links": {
+      "github": "Github",
+      "documentation": "ドキュメント",
+      "feedback": "フィードバック",
+      "contribute": "コントリビュート"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "ご質問がある場合は、まずドキュメントをご確認いただくか、コミュニティで質問してください。または support@deepchat.ai までメールでお問い合わせください。"
+    },
+    "icp": "沪ICP备20019669号-4"
+  },
+  "download": {
+    "title": "DeepChatをダウンロード",
+    "subtitle": "お使いのオペレーティングシステムを選択して開始",
+    "version": "現在のバージョン: {{version}}",
+    "github": "GitHubで全バージョンを確認",
+    "systems": {
+      "windows": {
+        "title": "Windows",
+        "subtitle": "Windows 10以上をサポート",
+        "version": "Windows {{arch}}"
+      },
+      "macos": {
+        "title": "macOS",
+        "subtitle": "macOS 10.13以上をサポート",
+        "version": "macOS {{arch}}"
+      },
+      "linux": {
+        "title": "Linux",
+        "subtitle": "主要なLinuxディストリビューションをサポート",
+        "version": "Linux {{arch}}"
+      }
+    }
+  },
+  "demo": {
+    "title": "DeepChatの使用シナリオ",
+    "subtitle": "様々な作業シナリオでDeepChatが生産性をどのように向上させるかをご覧ください",
+    "videoButton": "デモ動画を見る",
+    "features": "機能",
+    "caseSample": "事例",
+    "watchVideo": "動画を見る",
+    "categories": {
+      "office": {
+        "title": "オフィス & 生産性",
+        "description": "AIアシスタントで日常のオフィス業務を効率化"
+      },
+      "creative": {
+        "title": "クリエイティブ作業",
+        "description": "インテリジェントな提案でクリエイティブプロセスを加速"
+      },
+      "research": {
+        "title": "リサーチ & 分析",
+        "description": "強力なAIツールでデータと知識を深く分析"
+      },
+      "team": {
+        "title": "チームコラボレーション",
+        "description": "チームの生産性とコミュニケーションを向上"
+      }
+    },
+    "scenarios": {
+      "office": {
+        "documentProcessing": {
+          "title": "文書処理",
+          "description": "様々な文書フォーマットから情報を自動的に抽出、要約、整理",
+          "features": [
+            "PDF、Word文書、プレゼンテーションから主要情報を抽出",
+            "長文書の簡潔な要約を生成",
+            "非構造化データを構造化フォーマットに変換",
+            "複数言語間での文書翻訳"
+          ],
+          "caseSample": "マーケティングマネージャーが20件の顧客フィードバックレポートを確認する必要があります。DeepChatは各レポートから主要な感情と提案を素早く抽出し、数時間の手動読み取りを節約します。"
+        },
+        "meetingAssistant": {
+          "title": "会議アシスタント",
+          "description": "AI搭載アシスタントで会議をより効果的に",
+          "features": [
+            "過去の議論に基づいて会議議題を生成",
+            "会議内容をリアルタイムで文字起こしと要約",
+            "担当者を割り当てたアクションアイテムリストを作成",
+            "前回の会議からの未完了項目をフォローアップ"
+          ],
+          "caseSample": "プロジェクト計画会議中、DeepChatは議論を文字起こしし、締め切り付きのアクションアイテムリストを自動的に作成し、全参加者に送信します。"
+        }
+      },
+      "creative": {
+        "contentCreation": {
+          "title": "コンテンツ作成",
+          "description": "AI搭載の提案と機能強化で魅力的なコンテンツを作成",
+          "features": [
+            "記事、レポート、プレゼンテーションのアウトラインを生成",
+            "明確さ、関与度、トーンの改善を提案",
+            "異なる対象者向けのコンテンツバリエーションを作成",
+            "文法、スタイル、フォーマットをサポート"
+          ],
+          "caseSample": "コンテンツライターがブログ記事を執筆する際、DeepChatを使用して複数の見出しオプションを生成し、より良い関与度のための構造的改善を提案します。"
+        },
+        "learningEducation": {
+          "title": "学習 & 教育",
+          "description": "パーソナライズされたAIアシスタントで学習と教育を加速",
+          "features": [
+            "パーソナライズされた学習教材を作成",
+            "練習問題とクイズを生成",
+            "複雑な概念の説明を提供",
+            "興味と目標に基づいて学習パスを提案"
+          ],
+          "caseSample": "教師がDeepChatを使用して、異なる学習ニーズを持つ生徒向けにカスタマイズされた練習問題を作成し、各生徒のレベルに合わせて難易度を調整します。"
+        }
+      },
+      "research": {
+        "dataAnalysis": {
+          "title": "データ分析",
+          "description": "強力なAI分析ツールでデータから洞察を発見",
+          "features": [
+            "データセットを分析してパターンとトレンドを特定",
+            "複雑なデータの視覚化を生成",
+            "異なるデータタイプに適した統計的アプローチを提案",
+            "データの結果を簡単な言葉で説明"
+          ],
+          "caseSample": "ビジネスアナリストが販売データをDeepChatにアップロードし、季節的なトレンドと以前は明らかでなかった顧客セグメントを素早く特定します。"
+        },
+        "marketResearch": {
+          "title": "市場調査",
+          "description": "AI搭載の調査アシスタントで市場トレンドを先取り",
+          "features": [
+            "業界レポートとニュースを集約・分析",
+            "新興トレンドと競合動向を特定",
+            "競合分析レポートを生成",
+            "異なる地域の市場状況を要約"
+          ],
+          "caseSample": "プロダクトマネージャーがDeepChatを使用して最近の業界動向を分析し、成功した新製品機能につながる市場ギャップを特定します。"
+        }
+      },
+      "team": {
+        "projectManagement": {
+          "title": "プロジェクト管理",
+          "description": "インテリジェントなプロジェクト管理アシスタントでプロジェクトを順調に進める",
+          "features": [
+            "プロジェクトタイムラインとマイルストーンを生成",
+            "進捗を追跡し、潜在的な遅延をフラグ",
+            "リソース配分の最適化を提案",
+            "ステークホルダー向けのステータスレポートを作成"
+          ],
+          "caseSample": "プロジェクトマネージャーがDeepChatを使用して現在のプロジェクト状況を分析し、潜在的なボトルネックを特定し、締め切りに間に合わせるためのタスク再配分を提案します。"
+        },
+        "teamCommunication": {
+          "title": "チームコミュニケーション",
+          "description": "AI搭載アシスタントでチームコミュニケーションを強化",
+          "features": [
+            "プロフェッショナルなメールとコミュニケーションを下書き",
+            "長いメールスレッドと議論を要約",
+            "一般的な質問への回答を提案",
+            "異なる言語間のチームコミュニケーションを促進"
+          ],
+          "caseSample": "多国籍チームがDeepChatを使用して異なる言語を話すメンバー間のコミュニケーションを促進し、バーチャルミーティング中にリアルタイム翻訳を提供します。"
+        }
+      }
+    },
+    "cta": {
+      "title": "生産性を向上させる準備はできましたか？",
+      "description": "今すぐDeepChatをダウンロードして、日常業務でのAIの力を体験してください。",
+      "button": "今すぐダウンロード"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "コミュニティに参加するか、直接お問い合わせください",
+    "community": {
+      "title": "コミュニティに参加",
+      "subtitle": "他のユーザーとつながり、サポートを受けましょう",
+      "telegram": {
+        "title": "Telegramチャンネル",
+        "description": "最新のアップデートとディスカッションのためにTelegramチャンネルに参加",
+        "link": "https://t.me/deepchatAI"
+      },
+      "discord": {
+        "title": "Discordサーバー",
+        "description": "リアルタイムチャットとサポートのためにDiscordサーバーに参加",
+        "link": "https://discord.gg/D249vHMY"
+      }
+    },
+    "wechat": {
+      "title": "WeChatコミュニティ",
+      "subtitle": "QRコードをスキャンしてWeChatコミュニティに参加",
+      "group": {
+        "title": "WeChatグループ",
+        "description": "中国のユーザーのためのWeChatグループに参加"
+      },
+      "official": {
+        "title": "公式アカウント",
+        "description": "ニュースとアップデートのためにWeChat公式アカウントをフォロー"
+      }
+    },
+    "email": {
+      "title": "メールサポート",
+      "subtitle": "ビジネス協力とテクニカルサポートのため",
+      "address": "support@deepchat.ai"
+    }
+  }
+} 

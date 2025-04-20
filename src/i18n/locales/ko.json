@@ -1,0 +1,383 @@
+{
+  "nav": {
+    "home": "홈",
+    "download": "다운로드",
+    "demos": "사용 사례",
+    "docs": {
+      "title": "문서",
+      "items": [
+        { "title": "문서 보기", "href": "/docs" }
+      ]
+    },
+    "contact": "문의하기"
+  },
+  "hero": {
+    "title": "DeepChat - 당신의 데스크톱 AI 파트너",
+    "subtitle": "빠르고, 집중적이며, 딥워크를 위해 설계되었습니다. DeepChat은 프라이버시와 효율성을 모두 갖춘 AI의 강력한 기능을 데스크톱에 제공하여 생산적인 작업을 위한 이상적인 파트너가 됩니다.",
+    "features": [
+      "초고속 응답 - 네이티브 앱 성능으로 원활한 상호작용 구현",
+      "딥워크 중심 - 생산성을 높이는 방해 없는 작업 환경 구현",
+      "프라이버시 우선 - 로컬 처리 기반의 안전한 데이터 관리"
+    ],
+    "tryButton": "체험 시작하기",
+    "watchDemo": "데모 보기"
+  },
+  "modelProviders": {
+    "title": "현재 지원되는 모델 제공업체",
+    "subtitle": "DeepChat은 주요 AI 모델 제공업체와 호환됩니다",
+    "compatibleText": "openai/gemini API 형식의 모델 제공업체와 호환됩니다",
+    "providers": [
+      { "name": "Ollama", "logo": "/models/ollama.svg" },
+      { "name": "Deepseek", "logo": "/models/deepseek.svg" },
+      { "name": "Silicon", "logo": "/models/silicon.svg" },
+      { "name": "QwenLM", "logo": "/models/qwenlm.svg" },
+      { "name": "Doubao", "logo": "/models/doubao.svg" },
+      { "name": "MiniMax", "logo": "/models/minimax.svg" },
+      { "name": "Fireworks", "logo": "/models/fireworks.svg" },
+      { "name": "PPIO", "logo": "/models/ppio.svg" },
+      { "name": "OpenAI", "logo": "/models/openai.svg" },
+      { "name": "Gemini", "logo": "/models/gemini.svg" },
+      { "name": "GitHub Models", "logo": "/models/github.svg" },
+      { "name": "Moonshot", "logo": "/models/moonshot.svg" },
+      { "name": "OpenRouter", "logo": "/models/openrouter.svg" },
+      { "name": "Azure OpenAI", "logo": "/models/azure.svg" }
+    ]
+  },
+  "scenarios": {
+    "title": "이중 응용 시나리오",
+    "subtitle": "개인과 팀을 위한 지능형 어시스턴트 솔루션",
+    "tabs": {
+      "personal": "개인용",
+      "enterprise": "기업용"
+    },
+    "personal": [
+      {
+        "title": "문서 처리 및 분석",
+        "description": "다양한 문서를 업로드하고 지능적 분석, 콘텐츠 추출, 번역을 실현합니다.",
+        "features": [
+          "Excel 데이터 시각화",
+          "PPT 콘텐츠 추출",
+          "문서 번역"
+        ],
+        "image": "/scenarios/knowledge-management.png"
+      },
+      {
+        "title": "개인 AI 어시스턴트",
+        "description": "지식 획득, 개인 관리, 작업 지원을 위한 지능형 파트너.",
+        "features": [
+          "지식 Q&A",
+          "일정 관리",
+          "작업 지원"
+        ],
+        "image": "/scenarios/personal-efficiency.png"
+      },
+      {
+        "title": "학습 동반자",
+        "description": "개인화된 학습 계획, 지식 분석, 연습 문제 생성으로 지속적인 성장을 지원합니다.",
+        "features": [
+          "개인화된 학습 경로",
+          "개념 상세 설명",
+          "연습 문제 생성"
+        ],
+        "image": "/scenarios/learning-assistant.png"
+      },
+      {
+        "title": "창의적 어시스턴트",
+        "description": "다국어 작성 지원, 창의성 자극, 콘텐츠 품질 향상을 지원합니다.",
+        "features": [
+          "다국어 작성 지원",
+          "창의적 영감",
+          "콘텐츠 최적화"
+        ],
+        "image": "/scenarios/creative-assistant.png"
+      }
+    ],
+    "enterprise": [
+      {
+        "title": "기업 조사 및 시장 분석",
+        "description": "내부 재무 데이터와 실시간 시장 정보를 결합하여 포괄적인 시장 분석 보고서와 트렌드 예측을 생성합니다.",
+        "features": [
+          "통합 데이터 분석",
+          "트렌드 예측 지원",
+          "경쟁 상황 분석"
+        ],
+        "image": "/scenarios/business-process.png"
+      },
+      {
+        "title": "규제 준수 검토",
+        "description": "내부 정책 문서와 온라인 최신 규제를 비교하여 잠재적인 컴플라이언스 리스크를 식별합니다.",
+        "features": [
+          "실시간 규제 업데이트",
+          "컴플라이언스 격차 분석",
+          "리스크 관리 제안"
+        ],
+        "image": "/scenarios/team-collaboration.png"
+      },
+      {
+        "title": "지능형 시장 정보",
+        "description": "내부 경쟁 정보와 온라인 최신 동향을 통합하여 포괄적인 시장 통찰력과 기회 식별을 제공합니다.",
+        "features": [
+          "경쟁사 동향 실시간 추적",
+          "소비자 인사이트 분석",
+          "시장 기회 식별"
+        ],
+        "image": "/scenarios/dev-efficiency.png"
+      },
+      {
+        "title": "멀티소스 데이터 리포트",
+        "description": "내부 운영 데이터와 외부 시장 지표를 결합하여 정기적인 종합 보고서와 개인화된 대시보드를 자동 생성합니다.",
+        "features": [
+          "자동 정기 보고서",
+          "개인화된 대시보드",
+          "이상 및 기회 알림"
+        ],
+        "image": "/scenarios/customer-service.png"
+      }
+    ]
+  },
+  "features": {
+    "title": "핵심 장점",
+    "subtitle": "AI 경험을 향상시키는 강력한 기능",
+    "cards": [
+      {
+        "title": "웹 검색 통합",
+        "description": "실시간 정보 액세스, 사용자 정의 가능한 검색 엔진, 학술 검색 지원을 포함한 통합 웹 검색 기능.",
+        "action": "자세히 보기"
+      },
+      {
+        "title": "문서 처리",
+        "description": "여러 문서를 동시에 업로드하고 지능적인 분석, 추출, 번역 기능을 제공합니다.",
+        "action": "자세히 보기"
+      },
+      {
+        "title": "MCP 통합",
+        "description": "모델 제어 프로토콜을 활용하여 다양한 AI 모델과의 원활한 통합과 기능 확장을 실현합니다.",
+        "action": "자세히 보기"
+      },
+      {
+        "title": "멀티모델 지원",
+        "description": "GPT, Claude, DeepSeek 등 여러 AI 모델을 지원하며 작업에 따라 최적의 모델을 자동 선택합니다.",
+        "action": "자세히 보기"
+      }
+    ]
+  },
+  "privacy": {
+    "title": "보안 및 개인정보 보호",
+    "features": {
+      "offline": {
+        "title": "완전 로컬",
+        "description": "모든 대화와 데이터 처리가 기기에서 이루어져 절대적인 프라이버시를 보장합니다."
+      },
+      "encrypted": {
+        "title": "엄격한 보호",
+        "description": "고급 암호화 기술로 모든 정보를 안전하게 보호합니다."
+      },
+      "control": {
+        "title": "완전한 자율성",
+        "description": "데이터 사용과 저장을 완전히 제어하여 안심을 제공합니다."
+      }
+    }
+  },
+  "footer": {
+    "rights": "© 2024 DeepChat. 모든 권리를 보유합니다.",
+    "description": "DeepChat은 멀티 플랫폼 AI 클라이언트입니다. 더 많은 사람들이 AI의 편리함을 누릴 수 있도록 노력하고 있습니다.",
+    "links": {
+      "github": "Github",
+      "documentation": "문서",
+      "feedback": "피드백",
+      "contribute": "기여하기"
+    },
+    "contact": {
+      "title": "문의하기",
+      "description": "질문이 있으시면 먼저 문서를 확인하거나 커뮤니티에서 질문해 주세요. 또는 support@deepchat.ai로 이메일을 보내주세요."
+    },
+    "icp": "沪ICP备20019669号-4"
+  },
+  "download": {
+    "title": "DeepChat 다운로드",
+    "subtitle": "사용 중인 운영체제를 선택하여 시작하세요",
+    "version": "현재 버전: {{version}}",
+    "github": "GitHub에서 모든 버전 확인",
+    "systems": {
+      "windows": {
+        "title": "Windows",
+        "subtitle": "Windows 10 이상 지원",
+        "version": "Windows {{arch}}"
+      },
+      "macos": {
+        "title": "macOS",
+        "subtitle": "macOS 10.13 이상 지원",
+        "version": "macOS {{arch}}"
+      },
+      "linux": {
+        "title": "Linux",
+        "subtitle": "주요 Linux 배포판 지원",
+        "version": "Linux {{arch}}"
+      }
+    }
+  },
+  "demo": {
+    "title": "DeepChat 사용 시나리오",
+    "subtitle": "다양한 작업 시나리오에서 DeepChat이 생산성을 어떻게 향상시키는지 확인하세요",
+    "videoButton": "데모 영상 보기",
+    "features": "기능",
+    "caseSample": "사례",
+    "watchVideo": "영상 보기",
+    "categories": {
+      "office": {
+        "title": "사무실 & 생산성",
+        "description": "AI 어시스턴트로 일상적인 사무실 업무를 효율화"
+      },
+      "creative": {
+        "title": "창의적 작업",
+        "description": "지능형 제안으로 창의적 프로세스 가속화"
+      },
+      "research": {
+        "title": "리서치 & 분석",
+        "description": "강력한 AI 도구로 데이터와 지식을 깊이 분석"
+      },
+      "team": {
+        "title": "팀 협업",
+        "description": "팀의 생산성과 커뮤니케이션 향상"
+      }
+    },
+    "scenarios": {
+      "office": {
+        "documentProcessing": {
+          "title": "문서 처리",
+          "description": "다양한 문서 형식에서 정보를 자동으로 추출, 요약, 정리",
+          "features": [
+            "PDF, Word 문서, 프레젠테이션에서 주요 정보 추출",
+            "긴 문서의 간결한 요약 생성",
+            "비구조화 데이터를 구조화 형식으로 변환",
+            "다국어 간 문서 번역"
+          ],
+          "caseSample": "마케팅 매니저가 20개의 고객 피드백 보고서를 검토해야 합니다. DeepChat은 각 보고서에서 주요 감정과 제안을 빠르게 추출하여 수 시간의 수동 읽기를 절약합니다."
+        },
+        "meetingAssistant": {
+          "title": "회의 어시스턴트",
+          "description": "AI 탑재 어시스턴트로 회의를 더 효과적으로",
+          "features": [
+            "과거 논의를 기반으로 회의 안건 생성",
+            "회의 내용을 실시간으로 전사 및 요약",
+            "담당자를 할당한 액션 아이템 목록 작성",
+            "이전 회의의 미완료 항목 추적"
+          ],
+          "caseSample": "프로젝트 계획 회의 중, DeepChat은 논의를 전사하고 마감일이 있는 액션 아이템 목록을 자동으로 생성하여 모든 참가자에게 전송합니다."
+        }
+      },
+      "creative": {
+        "contentCreation": {
+          "title": "콘텐츠 제작",
+          "description": "AI 탑재 제안과 기능 강화로 매력적인 콘텐츠 생성",
+          "features": [
+            "기사, 보고서, 프레젠테이션의 개요 생성",
+            "명확성, 참여도, 톤 개선 제안",
+            "다른 대상자를 위한 콘텐츠 변형 생성",
+            "문법, 스타일, 포맷 지원"
+          ],
+          "caseSample": "콘텐츠 작가가 블로그 게시물을 작성할 때 DeepChat을 사용하여 여러 제목 옵션을 생성하고 더 나은 참여도를 위한 구조적 개선을 제안합니다."
+        },
+        "learningEducation": {
+          "title": "학습 & 교육",
+          "description": "맞춤형 AI 어시스턴트로 학습과 교육 가속화",
+          "features": [
+            "맞춤형 학습 자료 생성",
+            "연습 문제와 퀴즈 생성",
+            "복잡한 개념 설명 제공",
+            "관심사와 목표에 기반한 학습 경로 제안"
+          ],
+          "caseSample": "교사가 DeepChat을 사용하여 다양한 학습 요구를 가진 학생들을 위한 맞춤형 연습 문제를 생성하고 각 학생의 수준에 맞게 난이도를 조정합니다."
+        }
+      },
+      "research": {
+        "dataAnalysis": {
+          "title": "데이터 분석",
+          "description": "강력한 AI 분석 도구로 데이터에서 통찰력 발견",
+          "features": [
+            "데이터셋 분석하여 패턴과 트렌드 식별",
+            "복잡한 데이터의 시각화 생성",
+            "다른 데이터 유형에 적합한 통계적 접근 방식 제안",
+            "데이터 결과를 간단한 언어로 설명"
+          ],
+          "caseSample": "비즈니스 애널리스트가 판매 데이터를 DeepChat에 업로드하여 계절적 트렌드와 이전에는 명확하지 않았던 고객 세그먼트를 빠르게 식별합니다."
+        },
+        "marketResearch": {
+          "title": "시장 조사",
+          "description": "AI 탑재 조사 어시스턴트로 시장 트렌드 선점",
+          "features": [
+            "산업 보고서와 뉴스 집계 및 분석",
+            "신흥 트렌드와 경쟁 동향 식별",
+            "경쟁 분석 보고서 생성",
+            "다른 지역의 시장 상황 요약"
+          ],
+          "caseSample": "제품 매니저가 DeepChat을 사용하여 최근 산업 동향을 분석하고 성공적인 신제품 기능으로 이어지는 시장 격차를 식별합니다."
+        }
+      },
+      "team": {
+        "projectManagement": {
+          "title": "프로젝트 관리",
+          "description": "지능형 프로젝트 관리 어시스턴트로 프로젝트를 순조롭게 진행",
+          "features": [
+            "프로젝트 타임라인과 마일스톤 생성",
+            "진행 상황 추적 및 잠재적 지연 플래그",
+            "리소스 할당 최적화 제안",
+            "이해관계자를 위한 상태 보고서 작성"
+          ],
+          "caseSample": "프로젝트 매니저가 DeepChat을 사용하여 현재 프로젝트 상태를 분석하고 잠재적 병목 현상을 식별하며 마감일을 맞추기 위한 작업 재분배를 제안합니다."
+        },
+        "teamCommunication": {
+          "title": "팀 커뮤니케이션",
+          "description": "AI 탑재 어시스턴트로 팀 커뮤니케이션 강화",
+          "features": [
+            "전문적인 이메일과 커뮤니케이션 초안 작성",
+            "긴 이메일 스레드와 토론 요약",
+            "일반적인 질문에 대한 답변 제안",
+            "다른 언어 간 팀 커뮤니케이션 촉진"
+          ],
+          "caseSample": "다국적 팀이 DeepChat을 사용하여 다른 언어를 사용하는 멤버 간의 커뮤니케이션을 촉진하고 가상 회의 중 실시간 번역을 제공합니다."
+        }
+      }
+    },
+    "cta": {
+      "title": "생산성 향상을 준비하셨나요?",
+      "description": "지금 DeepChat을 다운로드하고 일상 업무에서 AI의 힘을 경험하세요.",
+      "button": "지금 다운로드"
+    }
+  },
+  "contact": {
+    "title": "문의하기",
+    "subtitle": "커뮤니티에 참여하거나 직접 문의하세요",
+    "community": {
+      "title": "커뮤니티 참여",
+      "subtitle": "다른 사용자들과 연결하고 지원을 받으세요",
+      "telegram": {
+        "title": "Telegram 채널",
+        "description": "최신 업데이트와 토론을 위해 Telegram 채널에 참여하세요",
+        "link": "https://t.me/deepchatAI"
+      },
+      "discord": {
+        "title": "Discord 서버",
+        "description": "실시간 채팅과 지원을 위해 Discord 서버에 참여하세요",
+        "link": "https://discord.gg/D249vHMY"
+      }
+    },
+    "wechat": {
+      "title": "WeChat 커뮤니티",
+      "subtitle": "QR 코드를 스캔하여 WeChat 커뮤니티에 참여하세요",
+      "group": {
+        "title": "WeChat 그룹",
+        "description": "중국 사용자를 위한 WeChat 그룹에 참여하세요"
+      },
+      "official": {
+        "title": "공식 계정",
+        "description": "뉴스와 업데이트를 위해 WeChat 공식 계정을 팔로우하세요"
+      }
+    },
+    "email": {
+      "title": "이메일 지원",
+      "subtitle": "비즈니스 협력과 기술 지원을 위해",
+      "address": "support@deepchat.ai"
+    }
+  }
+} 

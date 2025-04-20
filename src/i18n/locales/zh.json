@@ -1,0 +1,386 @@
+{
+  "nav": {
+    "home": "首页",
+    "download": "下载",
+    "demos": "场景演示",
+    "docs": {
+      "title": "文档",
+      "items": [
+        { "title": "查看文档", "href": "/docs" }
+      ]
+    },
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "DeepChat - 您的桌面AI伙伴",
+    "subtitle": "快速、专注，为深度工作而设计。DeepChat将AI的强大功能带到您的桌面，兼顾隐私和效率，成为您高效工作的理想伴侣。",
+    "features": [
+      "闪电般的响应速度 - 原生应用性能，实现无缝交互",
+      "深度工作专注 - 为高效、无干扰工作环境而设计",
+      "隐私优先 - 本地处理和安全数据处理"
+    ],
+    "tryButton": "开始体验",
+    "watchDemo": "观看演示"
+  },
+  "modelProviders": {
+    "title": "当前支持的模型提供商",
+    "subtitle": "DeepChat兼容所有主流AI模型提供商",
+    "compatibleText": "兼容任何符合openai/gemini API格式的模型提供商",
+    "providers": [
+      { "name": "Ollama", "logo": "/models/ollama.svg" },
+      { "name": "深度求索", "logo": "/models/deepseek.svg" },
+      { "name": "硅基流动", "logo": "/models/silicon.svg" },
+      { "name": "千问", "logo": "/models/qwenlm.svg" },
+      { "name": "豆包", "logo": "/models/doubao.svg" },
+      { "name": "极速", "logo": "/models/minimax.svg" },
+      { "name": "Fireworks", "logo": "/models/fireworks.svg" },
+      { "name": "PPIO", "logo": "/models/ppio.svg" },
+      { "name": "OpenAI", "logo": "/models/openai.svg" },
+      { "name": "谷歌Gemini", "logo": "/models/gemini.svg" },
+      { "name": "GitHub模型", "logo": "/models/github.svg" },
+      { "name": "月之暗面", "logo": "/models/moonshot.svg" },
+      { "name": "OpenRouter", "logo": "/models/openrouter.svg" },
+      { "name": "微软Azure", "logo": "/models/azure.svg" }
+    ]
+  },
+  "scenarios": {
+    "title": "双重场景应用",
+    "subtitle": "个人与团队的智能助手解决方案",
+    "tabs": {
+      "personal": "个人场景",
+      "enterprise": "企业场景"
+    },
+    "personal": [
+      {
+        "title": "文档处理与分析",
+        "description": "上传并处理各类文档，实现智能分析、内容提取与翻译转换。",
+        "features": [
+          "Excel数据可视化",
+          "PPT内容提取整合",
+          "文档翻译与本地化"
+        ],
+        "image": "/scenarios/knowledge-management.png"
+      },
+      {
+        "title": "个人智能助理",
+        "description": "您的智能伙伴，提供知识获取、个人管理与工作辅助。",
+        "features": [
+          "知识问答服务",
+          "日程安排管理",
+          "任务辅助处理"
+        ],
+        "image": "/scenarios/personal-efficiency.png"
+      },
+      {
+        "title": "学习成长伴侣",
+        "description": "个性化学习规划、知识解析与练习生成，助力持续进步。",
+        "features": [
+          "个性化学习路径",
+          "概念深度解析",
+          "智能练习生成"
+        ],
+        "image": "/scenarios/learning-assistant.png"
+      },
+      {
+        "title": "创意创作助手",
+        "description": "提供多场景写作支持，激发创意灵感，跨语言提升内容质量。",
+        "features": [
+          "多语言写作辅助",
+          "创意灵感激发",
+          "内容优化提升"
+        ],
+        "image": "/scenarios/creative-assistant.png"
+      }
+    ],
+    "enterprise": [
+      {
+        "title": "企业研报与市场分析",
+        "description": "结合内部财务数据与实时市场行情，生成全面的市场分析报告和趋势预测。",
+        "features": [
+          "内外数据整合分析",
+          "趋势预测与决策支持",
+          "竞争格局智能分析"
+        ],
+        "image": "/scenarios/business-process.png"
+      },
+      {
+        "title": "法规合规审查与风险评估",
+        "description": "将企业内部政策文件与在线最新法规进行智能比对，识别潜在合规风险。",
+        "features": [
+          "实时法规更新提醒",
+          "合规差距智能分析",
+          "风险控制建议生成"
+        ],
+        "image": "/scenarios/team-collaboration.png"
+      },
+      {
+        "title": "智能市场情报整合",
+        "description": "整合企业内部竞品档案与在线最新动态，提供全面的市场洞察与机会识别。",
+        "features": [
+          "竞品动态实时追踪",
+          "消费者洞察分析",
+          "市场机会智能识别"
+        ],
+        "image": "/scenarios/dev-efficiency.png"
+      },
+      {
+        "title": "多源数据智能报告",
+        "description": "结合内部运营数据与外部市场指标，自动生成定期综合报告和个性化数据仪表盘。",
+        "features": [
+          "自动化周期报告",
+          "个性化数据仪表盘",
+          "异常与机会提醒"
+        ],
+        "image": "/scenarios/customer-service.png"
+      }
+    ]
+  },
+  "features": {
+    "title": "核心优势",
+    "subtitle": "强大功能，提升AI体验",
+    "cards": [
+      {
+        "title": "联网搜索能力",
+        "description": "集成实时联网搜索功能，支持自定义搜索引擎配置，包括专业学术搜索支持。",
+        "action": "了解更多"
+      },
+      {
+        "title": "文档处理能力",
+        "description": "支持多文件同时上传与处理，提供智能分析、内容提取与翻译转换功能。",
+        "action": "了解更多"
+      },
+      {
+        "title": "MCP协议支持",
+        "description": "通过模型控制协议(MCP)实现与多种AI模型的无缝集成，扩展系统能力。",
+        "action": "了解更多"
+      },
+      {
+        "title": "多模型适配",
+        "description": "支持GPT、Claude、DeepSeek等多种AI模型，根据任务需求自动选择最佳模型。",
+        "action": "了解更多"
+      }
+    ]
+  },
+  "privacy": {
+    "title": "安全与隐私保障",
+    "features": {
+      "offline": {
+        "title": "本地化部署",
+        "description": "支持完全离线部署，数据存储在本地，确保隐私安全。"
+      },
+      "encrypted": {
+        "title": "端到端加密",
+        "description": "全程加密传输和存储，保护个人和企业数据安全。"
+      },
+      "control": {
+        "title": "权限精细管理",
+        "description": "多层级权限控制，满足企业级数据安全需求。"
+      }
+    }
+  },
+  "footer": {
+    "description": "DeepChat 是一个多平台 AI 客户端，致力于让更多人享受 AI 带来的便利。",
+    "links": {
+      "github": "GitHub",
+      "documentation": "文档",
+      "feedback": "反馈",
+      "contribute": "参与贡献"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "如有任何问题或建议，欢迎随时联系我们"
+    },
+    "rights": "© 2024 DeepChat. 保留所有权利。",
+    "icp": {
+      "text": "沪ICP备20019669号-4",
+      "link": "https://beian.miit.gov.cn/#/"
+    }
+  },
+  "download": {
+    "title": "下载 DeepChat",
+    "subtitle": "选择您的操作系统开始使用",
+    "version": "当前版本：{{version}}",
+    "github": "在 GitHub 上查看所有版本",
+    "systems": {
+      "windows": {
+        "title": "Windows",
+        "subtitle": "支持 Windows 10 及以上版本",
+        "version": "Windows {{arch}} 版本"
+      },
+      "macos": {
+        "title": "macOS",
+        "subtitle": "支持 macOS 10.13 及以上版本",
+        "version": "macOS {{arch}} 版本"
+      },
+      "linux": {
+        "title": "Linux",
+        "subtitle": "支持主流 Linux 发行版",
+        "version": "Linux {{arch}} 版本"
+      }
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "加入我们的社区或直接联系我们",
+    "community": {
+      "title": "加入社区",
+      "subtitle": "与其他用户交流获取帮助",
+      "telegram": {
+        "title": "Telegram 频道",
+        "description": "加入我们的 Telegram 频道获取最新动态和讨论",
+        "link": "https://t.me/deepchatAI"
+      },
+      "discord": {
+        "title": "Discord 服务器",
+        "description": "加入我们的 Discord 服务器获取实时聊天和支持",
+        "link": "https://discord.gg/D249vHMY"
+      }
+    },
+    "wechat": {
+      "title": "微信社区",
+      "subtitle": "扫描二维码加入我们的微信社区",
+      "group": {
+        "title": "微信群",
+        "description": "加入我们的微信群获取中文支持"
+      },
+      "official": {
+        "title": "官方小助手",
+        "description": "关注我们的官方小助手获取最新资讯"
+      }
+    },
+    "email": {
+      "title": "电子邮件",
+      "subtitle": "商务合作或技术支持",
+      "address": "support@deepchat.ai"
+    }
+  },
+  "demo": {
+    "title": "DeepChat 应用场景",
+    "subtitle": "探索 DeepChat 如何在不同工作场景中提升您的工作效率",
+    "videoButton": "观看演示视频",
+    "features": "功能特点",
+    "caseSample": "应用案例",
+    "watchVideo": "观看视频",
+    "categories": {
+      "office": {
+        "title": "办公与效率",
+        "description": "通过AI助手优化您的日常办公任务"
+      },
+      "creative": {
+        "title": "创意工作",
+        "description": "借助智能化建议提升您的创作过程"
+      },
+      "research": {
+        "title": "研究与分析",
+        "description": "利用强大的AI工具深入挖掘数据和知识"
+      },
+      "team": {
+        "title": "团队协作",
+        "description": "提升团队生产力和沟通效率"
+      }
+    },
+    "scenarios": {
+      "office": {
+        "documentProcessing": {
+          "title": "文档处理",
+          "description": "自动从各种文档格式中提取、总结和组织信息",
+          "features": [
+            "从PDF、Word文档和演示文稿中提取关键信息",
+            "为冗长文档生成简洁摘要",
+            "将非结构化数据转换为结构化格式",
+            "在多种语言之间翻译文档"
+          ],
+          "caseSample": "一位市场经理需要审阅20份客户反馈报告。DeepChat快速提取每份报告中的关键情感和建议，节省了数小时的人工阅读时间。"
+        },
+        "meetingAssistant": {
+          "title": "会议助手",
+          "description": "通过AI驱动的助手充分利用您的会议时间",
+          "features": [
+            "根据以往讨论生成会议议程",
+            "实时转录和总结会议内容",
+            "创建带有责任分配的行动项目列表",
+            "跟进上次会议的待办事项"
+          ],
+          "caseSample": "在项目规划会议中，DeepChat转录讨论内容并自动创建带有截止日期的行动项目列表，并发送给所有参与者。"
+        }
+      },
+      "creative": {
+        "contentCreation": {
+          "title": "内容创作",
+          "description": "借助AI驱动的建议和增强功能创建引人入胜的内容",
+          "features": [
+            "为文章、报告和演示文稿生成大纲",
+            "提供清晰度、参与度和语调方面的改进建议",
+            "为不同受众创建内容变体",
+            "协助语法、风格和格式调整"
+          ],
+          "caseSample": "一位撰写博客文章的内容创作者使用DeepChat生成多个标题选项，并提出结构改进建议，以提高读者参与度。"
+        },
+        "learningEducation": {
+          "title": "学习与教育",
+          "description": "通过个性化AI辅助加速学习和教育",
+          "features": [
+            "创建个性化学习材料",
+            "生成练习和测验",
+            "提供复杂概念的解释",
+            "根据兴趣和目标建议学习路径"
+          ],
+          "caseSample": "一位教师使用DeepChat为不同学习需求的学生创建定制练习题，为每个学生调整难度级别。"
+        }
+      },
+      "research": {
+        "dataAnalysis": {
+          "title": "数据分析",
+          "description": "利用强大的AI分析工具从数据中发现洞见",
+          "features": [
+            "分析数据集以识别模式和趋势",
+            "生成复杂数据的可视化",
+            "为不同数据类型建议统计方法",
+            "用简单语言解释数据发现"
+          ],
+          "caseSample": "一位业务分析师上传销售数据到DeepChat，系统快速识别出此前未发现的季节性趋势和客户细分。"
+        },
+        "marketResearch": {
+          "title": "市场研究",
+          "description": "借助AI驱动的研究助手掌握市场趋势",
+          "features": [
+            "聚合和分析行业报告和新闻",
+            "识别新兴趋势和竞争动态",
+            "生成竞争分析报告",
+            "总结不同地区的市场状况"
+          ],
+          "caseSample": "一位产品经理使用DeepChat分析最近的行业发展，帮助识别市场空白，从而开发出成功的新产品特性。"
+        }
+      },
+      "team": {
+        "projectManagement": {
+          "title": "项目管理",
+          "description": "通过智能项目管理助手保持项目进度",
+          "features": [
+            "生成项目时间线和里程碑",
+            "跟踪进度并标记潜在延迟",
+            "建议资源分配优化",
+            "为利益相关者创建状态报告"
+          ],
+          "caseSample": "一位项目经理使用DeepChat分析当前项目状态，识别潜在瓶颈，并建议任务重新分配以满足截止日期。"
+        },
+        "teamCommunication": {
+          "title": "团队沟通",
+          "description": "通过AI驱动的助手增强团队沟通",
+          "features": [
+            "起草专业电子邮件和通信",
+            "总结冗长的电子邮件线程和讨论",
+            "对常见查询提出回应建议",
+            "促进跨语言团队沟通"
+          ],
+          "caseSample": "一个跨国团队使用DeepChat促进不同语言成员之间的沟通，在虚拟会议期间提供实时翻译。"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好提升您的工作效率了吗？",
+      "description": "立即下载 DeepChat，体验 AI 在日常工作中的强大功能。",
+      "button": "立即下载"
+    }
+  }
+} 

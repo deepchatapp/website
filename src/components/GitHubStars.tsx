@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Star } from 'lucide-react';
 
 interface GitHubStarsProps {
-  repo: string;
+  repo?: string;
 }
 
-function GitHubStars({ repo }: GitHubStarsProps) {
+function GitHubStars({ repo = "thinkinaixyz/deepchat" }: GitHubStarsProps) {
   const [stars, setStars] = useState<number | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
@@ -55,14 +55,20 @@ function GitHubStars({ repo }: GitHubStarsProps) {
   if (error) {
     return (
       <div className="flex items-center opacity-75">
-        <Star className="w-4 h-4 text-white" />
+        <Star className="w-4 h-4 text-gray-400" />
         <span className="text-sm ml-1">-</span>
       </div>
     );
   }
 
   return (
-    <div className="flex items-center">
+    <a 
+      href={`https://github.com/${repo}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center space-x-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors"
+    >
+      <span>GitHub</span>
       {loading ? (
         <div className="flex items-center opacity-75">
           <Star className="w-4 h-4 text-white" />
@@ -74,7 +80,7 @@ function GitHubStars({ repo }: GitHubStarsProps) {
           <span className="text-sm ml-1">{stars !== null ? stars.toLocaleString() : '0'}</span>
         </div>
       )}
-    </div>
+    </a>
   );
 }
 

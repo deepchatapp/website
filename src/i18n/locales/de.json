@@ -1,0 +1,387 @@
+{
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Treten Sie unserer Community bei oder kontaktieren Sie uns direkt",
+    "community": {
+      "title": "Community beitreten",
+      "subtitle": "Verbinden Sie sich mit anderen Nutzern und erhalten Sie Unterstützung",
+      "telegram": {
+        "title": "Telegram-Kanal",
+        "description": "Treten Sie unserem Telegram-Kanal für die neuesten Updates und Diskussionen bei",
+        "link": "https://t.me/deepchatAI"
+      },
+      "discord": {
+        "title": "Discord-Server",
+        "description": "Treten Sie unserem Discord-Server für Live-Chat und Support bei",
+        "link": "https://discord.gg/D249vHMY"
+      }
+    },
+    "wechat": {
+      "title": "WeChat-Community",
+      "subtitle": "Scannen Sie den QR-Code, um unserer WeChat-Community beizutreten",
+      "group": {
+        "title": "WeChat-Gruppe",
+        "description": "Treten Sie unserer WeChat-Gruppe für chinesische Nutzer bei"
+      },
+      "official": {
+        "title": "Offizielles Konto",
+        "description": "Folgen Sie unserem offiziellen WeChat-Konto für Neuigkeiten und Updates"
+      }
+    },
+    "email": {
+      "title": "E-Mail-Support",
+      "subtitle": "Für Geschäftskooperation und technischen Support",
+      "address": "support@deepchat.ai"
+    }
+  },
+  "nav": {
+    "home": "Startseite",
+    "download": "Herunterladen",
+    "demos": "Anwendungsfälle",
+    "docs": {
+      "title": "Dokumentation",
+      "items": [
+        { "title": "Einführung in DeepChat", "href": "/docs/intro" },
+        { "title": "Schnellstart", "href": "/docs/quickstart" },
+        { "title": "Benutzerhandbuch", "href": "/docs/guide" },
+        { "title": "Modellkonfiguration", "href": "/docs/models" },
+        { "title": "FAQ und Fehlerbehebung", "href": "/docs/faq" }
+      ]
+    },
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "DeepChat - Ihr KI-Assistent auf dem Desktop",
+    "subtitle": "Schnell, fokussiert und für tiefes Arbeiten konzipiert. DeepChat bringt die Kraft der KI mit Privatsphäre und Effizienz auf Ihren Desktop und wird zu Ihrem idealen Begleiter für produktives Arbeiten.",
+    "features": [
+      "Blitzschnelle Reaktion - Native App-Leistung für nahtlose Interaktion",
+      "Fokus auf tiefes Arbeiten - Für eine produktive und ablenkungsfreie Arbeitsumgebung",
+      "Privatsphäre zuerst - Lokale Verarbeitung und sichere Datenverwaltung"
+    ],
+    "tryButton": "Starten Sie Ihre Reise",
+    "watchDemo": "Demo ansehen"
+  },
+  "modelProviders": {
+    "title": "Aktuell unterstützte Modellanbieter",
+    "subtitle": "DeepChat ist mit allen führenden KI-Modellanbietern kompatibel",
+    "compatibleText": "Kompatibel mit jedem Modellanbieter im OpenAI/Gemini API-Format",
+    "providers": [
+      { "name": "Ollama", "logo": "/models/ollama.svg" },
+      { "name": "Deepseek", "logo": "/models/deepseek.svg" },
+      { "name": "Silicon", "logo": "/models/silicon.svg" },
+      { "name": "QwenLM", "logo": "/models/qwenlm.svg" },
+      { "name": "Doubao", "logo": "/models/doubao.svg" },
+      { "name": "MiniMax", "logo": "/models/minimax.svg" },
+      { "name": "Fireworks", "logo": "/models/fireworks.svg" },
+      { "name": "PPIO", "logo": "/models/ppio.svg" },
+      { "name": "OpenAI", "logo": "/models/openai.svg" },
+      { "name": "Gemini", "logo": "/models/gemini.svg" },
+      { "name": "GitHub Models", "logo": "/models/github.svg" },
+      { "name": "Moonshot", "logo": "/models/moonshot.svg" },
+      { "name": "OpenRouter", "logo": "/models/openrouter.svg" },
+      { "name": "Azure OpenAI", "logo": "/models/azure.svg" }
+    ]
+  },
+  "scenarios": {
+    "title": "Duale Anwendungsszenarien",
+    "subtitle": "Intelligente Assistentenlösungen für Einzelpersonen und Teams",
+    "tabs": {
+      "personal": "Persönlich",
+      "enterprise": "Unternehmen"
+    },
+    "personal": [
+      {
+        "title": "Dokumentenverarbeitung und -analyse",
+        "description": "Laden und verarbeiten Sie verschiedene Dokumente für intelligente Analyse, Inhaltsgewinnung und Übersetzung.",
+        "features": [
+          "Excel-Datenvisualisierung",
+          "PPT-Inhaltsgewinnung",
+          "Dokumentübersetzung"
+        ],
+        "image": "/scenarios/knowledge-management.png"
+      },
+      {
+        "title": "Persönlicher KI-Assistent",
+        "description": "Ihr intelligenter Begleiter für Wissenserwerb, persönliches Management und Arbeitsunterstützung.",
+        "features": [
+          "Wissensfragen und -antworten",
+          "Planungsmanagement",
+          "Aufgabenunterstützung"
+        ],
+        "image": "/scenarios/personal-efficiency.png"
+      },
+      {
+        "title": "Lernbegleiter",
+        "description": "Personalisierte Lernpfade, Konzeptklärung und Übungsgenerierung für kontinuierliche Verbesserung.",
+        "features": [
+          "Personalisierte Lernpfade",
+          "Konzeptklärung",
+          "Übungsgenerierung"
+        ],
+        "image": "/scenarios/learning-assistant.png"
+      },
+      {
+        "title": "Kreativer Assistent",
+        "description": "Mehrsprachige Schreibunterstützung für verschiedene Szenarien zur Förderung der Kreativität und Verbesserung der Inhaltsqualität.",
+        "features": [
+          "Mehrsprachige Schreibunterstützung",
+          "Kreative Inspiration",
+          "Inhaltsoptimierung"
+        ],
+        "image": "/scenarios/creative-assistant.png"
+      }
+    ],
+    "enterprise": [
+      {
+        "title": "Unternehmensforschung und Marktanalyse",
+        "description": "Kombinieren Sie interne Finanzdaten mit Echtzeit-Marktinformationen für umfassende Marktanalysen und Trendvorhersagen.",
+        "features": [
+          "Integrierte Datenanalyse",
+          "Trendvorhersageunterstützung",
+          "Wettbewerbslandschaftsanalyse"
+        ],
+        "image": "/scenarios/business-process.png"
+      },
+      {
+        "title": "Regulatorische Compliance-Prüfung",
+        "description": "Intelligenter Vergleich zwischen internen Richtliniendokumenten und aktuellen Online-Vorschriften zur Identifizierung potenzieller Compliance-Risiken.",
+        "features": [
+          "Echtzeit-Regulierungsaktualisierungen",
+          "Compliance-Lückenanalyse",
+          "Risikokontrollempfehlungen"
+        ],
+        "image": "/scenarios/team-collaboration.png"
+      },
+      {
+        "title": "Intelligente Marktintelligenz",
+        "description": "Integrieren Sie interne Wettbewerbsintelligenz mit aktuellen Online-Entwicklungen für umfassende Marktinformationen und Chancenidentifizierung.",
+        "features": [
+          "Echtzeit-Wettbewerberüberwachung",
+          "Verbraucher-Insight-Analyse",
+          "Marktchancenidentifizierung"
+        ],
+        "image": "/scenarios/dev-efficiency.png"
+      },
+      {
+        "title": "Multi-Quellen-Datenberichte",
+        "description": "Kombinieren Sie interne Betriebsdaten mit externen Marktindikatoren für automatische periodische Berichte und personalisierte Dashboards.",
+        "features": [
+          "Automatische periodische Berichte",
+          "Personalisiertes Daten-Dashboard",
+          "Anomalie- und Chancenwarnungen"
+        ],
+        "image": "/scenarios/customer-service.png"
+      }
+    ]
+  },
+  "features": {
+    "title": "Hauptvorteile",
+    "subtitle": "Leistungsstarke Funktionen für ein verbessertes KI-Erlebnis",
+    "cards": [
+      {
+        "title": "Websuche-Integration",
+        "description": "Greifen Sie auf Echtzeit-Informationen mit integrierten Websuchfunktionen und anpassbaren Suchmaschinen zu, einschließlich akademischer Suche.",
+        "action": "Mehr entdecken"
+      },
+      {
+        "title": "Dokumentenverarbeitung",
+        "description": "Laden und verarbeiten Sie mehrere Dokumente gleichzeitig mit intelligenten Analyse-, Extraktions- und Übersetzungsfunktionen.",
+        "action": "Mehr entdecken"
+      },
+      {
+        "title": "MCP-Integration",
+        "description": "Nutzen Sie das Modellsteuerungsprotokoll für nahtlose Integration mit verschiedenen KI-Modellen und erweiterten Funktionen.",
+        "action": "Mehr entdecken"
+      },
+      {
+        "title": "Multi-Modell-Unterstützung",
+        "description": "Unterstützung für mehrere KI-Modelle, einschließlich GPT, Claude, DeepSeek und andere, mit automatischer Modellauswahl basierend auf Aufgabenanforderungen.",
+        "action": "Mehr entdecken"
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Ihr vertrauenswürdiger Wächter",
+    "features": {
+      "offline": {
+        "title": "Vollständig lokal",
+        "description": "Alle Konversationen und Datenverarbeitung erfolgen auf Ihrem Gerät, was maximale Privatsphäre gewährleistet."
+      },
+      "encrypted": {
+        "title": "Rigoroser Schutz",
+        "description": "Fortschrittliche Verschlüsselungstechnologie hält jeden Aspekt Ihrer Informationen sicher."
+      },
+      "control": {
+        "title": "Vollständige Kontrolle",
+        "description": "Sie haben die vollständige Kontrolle über die Verwendung und Speicherung Ihrer Daten, was für Sicherheit sorgt."
+      }
+    }
+  },
+  "footer": {
+    "rights": "© 2024 DeepChat. Alle Rechte vorbehalten.",
+    "description": "DeepChat ist ein plattformübergreifender KI-Client. Wir setzen uns dafür ein, dass mehr Menschen von den Vorteilen der KI profitieren können.",
+    "links": {
+      "github": "GitHub",
+      "documentation": "Dokumentation",
+      "feedback": "Feedback",
+      "contribute": "Beitragen"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Bei Fragen konsultieren Sie bitte zuerst die Dokumentation oder stellen Sie Fragen in der Community. Oder senden Sie uns eine E-Mail an support@deepchat.ai."
+    },
+    "icp": "沪ICP备20019669号-4"
+  },
+  "download": {
+    "title": "DeepChat herunterladen",
+    "subtitle": "Wählen Sie Ihr Betriebssystem, um zu beginnen",
+    "version": "Aktuelle Version: {{version}}",
+    "github": "Alle Versionen auf GitHub anzeigen",
+    "systems": {
+      "windows": {
+        "title": "Windows",
+        "subtitle": "Unterstützung für Windows 10 und höher",
+        "version": "Windows {{arch}}"
+      },
+      "macos": {
+        "title": "macOS",
+        "subtitle": "Unterstützung für macOS 10.13 und höher",
+        "version": "macOS {{arch}}"
+      },
+      "linux": {
+        "title": "Linux",
+        "subtitle": "Unterstützung für die wichtigsten Linux-Distributionen",
+        "version": "Linux {{arch}}"
+      }
+    }
+  },
+  "demo": {
+    "title": "DeepChat-Anwendungsszenarien",
+    "subtitle": "Entdecken Sie, wie DeepChat Ihre Produktivität in verschiedenen Arbeitsszenarien verbessert",
+    "videoButton": "Demo-Video ansehen",
+    "features": "Funktionen",
+    "caseSample": "Fallstudie",
+    "watchVideo": "Video ansehen",
+    "categories": {
+      "office": {
+        "title": "Büro und Produktivität",
+        "description": "Optimieren Sie Ihre täglichen Büroaktivitäten mit KI-Unterstützung"
+      },
+      "creative": {
+        "title": "Kreative Arbeit",
+        "description": "Stimulieren Sie Ihren kreativen Prozess mit intelligenten Vorschlägen"
+      },
+      "research": {
+        "title": "Forschung und Analyse",
+        "description": "Tauchen Sie tief in Daten und Wissen mit leistungsstarken KI-Tools ein"
+      },
+      "team": {
+        "title": "Teamzusammenarbeit",
+        "description": "Verbessern Sie Teamproduktivität und -kommunikation"
+      }
+    },
+    "scenarios": {
+      "office": {
+        "documentProcessing": {
+          "title": "Dokumentenverarbeitung",
+          "description": "Extrahieren, zusammenfassen und organisieren Sie automatisch Informationen aus verschiedenen Dokumentformaten",
+          "features": [
+            "Extrahieren Sie wichtige Informationen aus PDFs, Word-Dokumenten und Präsentationen",
+            "Generieren Sie prägnante Zusammenfassungen langer Dokumente",
+            "Konvertieren Sie unstrukturierte Daten in strukturierte Formate",
+            "Übersetzen Sie Dokumente zwischen mehreren Sprachen"
+          ],
+          "caseSample": "Ein Marketing-Manager muss 20 Kundenfeedback-Berichte überprüfen. DeepChat extrahiert schnell Gefühle und wichtige Vorschläge aus jedem Bericht und spart Stunden manueller Lektüre."
+        },
+        "meetingAssistant": {
+          "title": "Besprechungsassistent",
+          "description": "Holen Sie das Beste aus Ihren Besprechungen mit KI-Unterstützung",
+          "features": [
+            "Generieren Sie Tagesordnungen basierend auf früheren Diskussionen",
+            "Transkribieren und fassen Sie Besprechungsinhalte in Echtzeit zusammen",
+            "Erstellen Sie Aktionslisten mit zugewiesenen Verantwortlichkeiten",
+            "Verfolgen Sie ausstehende Punkte früherer Besprechungen"
+          ],
+          "caseSample": "Während einer Projektplanungsbesprechung transkribiert DeepChat die Diskussion und erstellt automatisch eine Aktionsliste mit Fristen, die an alle Teilnehmer gesendet wird."
+        }
+      },
+      "creative": {
+        "contentCreation": {
+          "title": "Inhaltserstellung",
+          "description": "Erstellen Sie ansprechende Inhalte mit KI-gestützten Vorschlägen und Verbesserungen",
+          "features": [
+            "Generieren Sie Gliederungen für Artikel, Berichte und Präsentationen",
+            "Schlagen Sie Verbesserungen für Klarheit, Engagement und Ton vor",
+            "Erstellen Sie Inhaltsvarianten für verschiedene Zielgruppen",
+            "Helfen Sie bei Grammatik, Stil und Formatierung"
+          ],
+          "caseSample": "Ein Content-Autor, der Blog-Artikel schreibt, verwendet DeepChat, um mehrere Titeloptionen zu generieren und strukturelle Verbesserungen für mehr Engagement vorzuschlagen."
+        },
+        "learningEducation": {
+          "title": "Lernen und Bildung",
+          "description": "Beschleunigen Sie Lernen und Bildung mit personalisierter KI-Unterstützung",
+          "features": [
+            "Erstellen Sie personalisiertes Lernmaterial",
+            "Generieren Sie praktische Übungen und Quizze",
+            "Bieten Sie Erklärungen für komplexe Konzepte",
+            "Schlagen Sie Lernpfade basierend auf Interessen und Zielen vor"
+          ],
+          "caseSample": "Ein Lehrer verwendet DeepChat, um personalisierte Übungen für Schüler mit unterschiedlichen Lernbedürfnissen zu erstellen und passt den Schwierigkeitsgrad für jeden Schüler an."
+        }
+      },
+      "research": {
+        "dataAnalysis": {
+          "title": "Datenanalyse",
+          "description": "Entdecken Sie Erkenntnisse in Ihren Daten mit leistungsstarken KI-Analysetools",
+          "features": [
+            "Analysieren Sie Datensätze, um Muster und Trends zu identifizieren",
+            "Generieren Sie komplexe Datenvisualisierungen",
+            "Schlagen Sie statistische Ansätze für verschiedene Datentypen vor",
+            "Erklären Sie Datenergebnisse in einfacher Sprache"
+          ],
+          "caseSample": "Ein Geschäftsanalyst lädt Verkaufsdaten in DeepChat, das schnell saisonale Trends und Kundensegmente identifiziert, die zuvor nicht erkennbar waren."
+        },
+        "marketResearch": {
+          "title": "Marktforschung",
+          "description": "Bleiben Sie über Markttrends mit KI-gestützter Forschung auf dem Laufenden",
+          "features": [
+            "Aggregieren und analysieren Sie Branchenberichte und Nachrichten",
+            "Identifizieren Sie aufkommende Trends und Wettbewerberbewegungen",
+            "Generieren Sie Wettbewerbsanalysen",
+            "Fassen Sie Marktbedingungen für verschiedene Regionen zusammen"
+          ],
+          "caseSample": "Ein Produktmanager verwendet DeepChat, um aktuelle Branchenentwicklungen zu analysieren und hilft, eine Marktlücke zu identifizieren, die zu einer erfolgreichen neuen Produktfunktion führt."
+        }
+      },
+      "team": {
+        "projectManagement": {
+          "title": "Projektmanagement",
+          "description": "Halten Sie Projekte mit einem intelligenten Projektmanagement-Assistenten auf Kurs",
+          "features": [
+            "Generieren Sie Projektzeitpläne und Meilensteine",
+            "Verfolgen Sie Fortschritt und weisen Sie auf mögliche Verzögerungen hin",
+            "Schlagen Sie Ressourcenzuweisungsoptimierungen vor",
+            "Erstellen Sie Statusberichte für Stakeholder"
+          ],
+          "caseSample": "Ein Projektmanager verwendet DeepChat, um den aktuellen Projektstatus zu analysieren, mögliche Engpässe zu identifizieren und Aufgabenumverteilungen vorzuschlagen, um Fristen einzuhalten."
+        },
+        "teamCommunication": {
+          "title": "Teamkommunikation",
+          "description": "Verbessern Sie die Teamkommunikation mit KI-Unterstützung",
+          "features": [
+            "Verfassen Sie E-Mails und professionelle Kommunikation",
+            "Fassen Sie lange Diskussionsfäden und E-Mail-Konversationen zusammen",
+            "Schlagen Sie Antworten auf häufige Anfragen vor",
+            "Erleichtern Sie die Teamkommunikation zwischen Sprachen"
+          ],
+          "caseSample": "Ein multinationales Team verwendet DeepChat, um die Kommunikation zwischen Mitgliedern zu erleichtern, die verschiedene Sprachen sprechen, und bietet Echtzeitübersetzung während virtueller Besprechungen."
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihre Produktivität zu steigern?",
+      "description": "Laden Sie DeepChat heute herunter und entdecken Sie die Kraft der KI in Ihrer täglichen Arbeit.",
+      "button": "Jetzt herunterladen"
+    }
+  }
+} 

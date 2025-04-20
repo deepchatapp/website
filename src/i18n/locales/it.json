@@ -1,0 +1,352 @@
+{
+  "nav": {
+    "home": "Home",
+    "download": "Scarica",
+    "demos": "Casi d'uso",
+    "docs": {
+      "title": "Documentazione",
+      "items": [
+        { "title": "Introduzione a DeepChat", "href": "/docs/intro" },
+        { "title": "Guida rapida", "href": "/docs/quickstart" },
+        { "title": "Guida utente", "href": "/docs/guide" },
+        { "title": "Configurazione modelli", "href": "/docs/models" },
+        { "title": "FAQ e risoluzione problemi", "href": "/docs/faq" }
+      ]
+    },
+    "contact": "Contatti"
+  },
+  "hero": {
+    "title": "DeepChat - Il tuo assistente IA sul desktop",
+    "subtitle": "Veloce, concentrato e progettato per il lavoro profondo. DeepChat porta la potenza dell'IA sul tuo desktop con privacy ed efficienza, diventando il tuo compagno ideale per un lavoro produttivo.",
+    "features": [
+      "Risposta fulminea - Performance da applicazione nativa per un'interazione fluida",
+      "Concentrazione sul lavoro profondo - Per un ambiente di lavoro produttivo e senza distrazioni",
+      "Privacy prima di tutto - Elaborazione locale e gestione sicura dei dati"
+    ],
+    "tryButton": "Inizia il tuo viaggio",
+    "watchDemo": "Guarda la demo"
+  },
+  "modelProviders": {
+    "title": "Fornitori di modelli attualmente supportati",
+    "subtitle": "DeepChat è compatibile con tutti i principali fornitori di modelli IA",
+    "compatibleText": "Compatibile con qualsiasi fornitore di modelli in formato API openai/gemini",
+    "providers": [
+      { "name": "Ollama", "logo": "/models/ollama.svg" },
+      { "name": "Deepseek", "logo": "/models/deepseek.svg" },
+      { "name": "Silicon", "logo": "/models/silicon.svg" },
+      { "name": "QwenLM", "logo": "/models/qwenlm.svg" },
+      { "name": "Doubao", "logo": "/models/doubao.svg" },
+      { "name": "MiniMax", "logo": "/models/minimax.svg" },
+      { "name": "Fireworks", "logo": "/models/fireworks.svg" },
+      { "name": "PPIO", "logo": "/models/ppio.svg" },
+      { "name": "OpenAI", "logo": "/models/openai.svg" },
+      { "name": "Gemini", "logo": "/models/gemini.svg" },
+      { "name": "GitHub Models", "logo": "/models/github.svg" },
+      { "name": "Moonshot", "logo": "/models/moonshot.svg" },
+      { "name": "OpenRouter", "logo": "/models/openrouter.svg" },
+      { "name": "Azure OpenAI", "logo": "/models/azure.svg" }
+    ]
+  },
+  "scenarios": {
+    "title": "Scenari di applicazione doppi",
+    "subtitle": "Soluzioni di assistente intelligente per privati e team",
+    "tabs": {
+      "personal": "Personale",
+      "enterprise": "Aziendale"
+    },
+    "personal": [
+      {
+        "title": "Elaborazione e analisi documenti",
+        "description": "Carica ed elabora vari documenti per analisi intelligente, estrazione contenuti e traduzione.",
+        "features": [
+          "Visualizzazione dati Excel",
+          "Estrazione contenuti PPT",
+          "Traduzione documenti"
+        ],
+        "image": "/scenarios/knowledge-management.png"
+      },
+      {
+        "title": "Assistente IA personale",
+        "description": "Il tuo compagno intelligente per l'acquisizione di conoscenze, la gestione personale e l'assistenza al lavoro.",
+        "features": [
+          "Domande e risposte sulle conoscenze",
+          "Gestione pianificazione",
+          "Assistenza alle attività"
+        ],
+        "image": "/scenarios/personal-efficiency.png"
+      },
+      {
+        "title": "Compagno di apprendimento",
+        "description": "Percorsi di apprendimento personalizzati, chiarimento concetti e generazione esercizi per un miglioramento continuo.",
+        "features": [
+          "Percorsi di apprendimento personalizzati",
+          "Chiarimento concetti",
+          "Generazione esercizi"
+        ],
+        "image": "/scenarios/learning-assistant.png"
+      },
+      {
+        "title": "Assistente creativo",
+        "description": "Assistenza alla scrittura multilingue per vari scenari per stimolare la creatività e migliorare la qualità dei contenuti.",
+        "features": [
+          "Assistenza alla scrittura multilingue",
+          "Ispirazione creativa",
+          "Ottimizzazione contenuti"
+        ],
+        "image": "/scenarios/creative-assistant.png"
+      }
+    ],
+    "enterprise": [
+      {
+        "title": "Ricerca e analisi di mercato aziendale",
+        "description": "Combina i dati finanziari interni con le informazioni di mercato in tempo reale per analisi di mercato complete e previsioni di tendenze.",
+        "features": [
+          "Analisi dati integrata",
+          "Supporto alla previsione di tendenze",
+          "Analisi del panorama competitivo"
+        ],
+        "image": "/scenarios/business-process.png"
+      },
+      {
+        "title": "Verifica conformità normativa",
+        "description": "Confronto intelligente tra documenti di policy interni e normative online attuali per identificare potenziali rischi di conformità.",
+        "features": [
+          "Aggiornamenti normativi in tempo reale",
+          "Analisi lacune di conformità",
+          "Raccomandazioni di controllo dei rischi"
+        ],
+        "image": "/scenarios/team-collaboration.png"
+      },
+      {
+        "title": "Intelligence di mercato intelligente",
+        "description": "Integra l'intelligence competitiva interna con gli sviluppi online attuali per informazioni di mercato complete e identificazione delle opportunità.",
+        "features": [
+          "Monitoraggio competitor in tempo reale",
+          "Analisi insight consumatori",
+          "Identificazione opportunità di mercato"
+        ],
+        "image": "/scenarios/dev-efficiency.png"
+      },
+      {
+        "title": "Report dati multi-sorgente",
+        "description": "Combina i dati operativi interni con gli indicatori di mercato esterni per report periodici automatici e dashboard personalizzate.",
+        "features": [
+          "Report periodici automatizzati",
+          "Dashboard dati personalizzata",
+          "Avvisi anomalie e opportunità"
+        ],
+        "image": "/scenarios/customer-service.png"
+      }
+    ]
+  },
+  "features": {
+    "title": "Vantaggi principali",
+    "subtitle": "Funzionalità potenti per un'esperienza IA migliorata",
+    "cards": [
+      {
+        "title": "Integrazione ricerca web",
+        "description": "Accedi alle informazioni in tempo reale con funzionalità di ricerca web integrate e motori di ricerca personalizzabili, inclusa la ricerca accademica.",
+        "action": "Scopri di più"
+      },
+      {
+        "title": "Elaborazione documenti",
+        "description": "Carica ed elabora più documenti contemporaneamente con funzionalità di analisi, estrazione e traduzione intelligenti.",
+        "action": "Scopri di più"
+      },
+      {
+        "title": "Integrazione MCP",
+        "description": "Utilizza il protocollo di controllo modello per un'integrazione fluida con vari modelli IA e funzionalità avanzate.",
+        "action": "Scopri di più"
+      },
+      {
+        "title": "Supporto multi-modelli",
+        "description": "Supporto per più modelli IA, inclusi GPT, Claude, DeepSeek e altri, con selezione automatica del modello basata sui requisiti del compito.",
+        "action": "Scopri di più"
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Il tuo guardiano affidabile",
+    "features": {
+      "offline": {
+        "title": "Completamente locale",
+        "description": "Tutte le conversazioni e l'elaborazione dei dati avvengono sul tuo dispositivo, garantendo la massima privacy."
+      },
+      "encrypted": {
+        "title": "Protezione rigorosa",
+        "description": "La tecnologia di crittografia avanzata mantiene ogni aspetto delle tue informazioni al sicuro."
+      },
+      "control": {
+        "title": "Controllo completo",
+        "description": "Hai il controllo totale sull'utilizzo e lo storage dei tuoi dati, assicurando la tranquillità."
+      }
+    }
+  },
+  "footer": {
+    "rights": "© 2024 DeepChat. Tutti i diritti riservati.",
+    "description": "DeepChat è un client IA multi-piattaforma. Ci impegniamo a permettere a più persone di beneficiare dei vantaggi dell'IA.",
+    "links": {
+      "github": "GitHub",
+      "documentation": "Documentazione",
+      "feedback": "Feedback",
+      "contribute": "Contribuisci"
+    },
+    "contact": {
+      "title": "Contatti",
+      "description": "Per qualsiasi domanda, consulta prima la documentazione o fai domande nella community. Oppure inviaci un'email a support@deepchat.ai."
+    },
+    "icp": "沪ICP备20019669号-4"
+  },
+  "download": {
+    "title": "Scarica DeepChat",
+    "subtitle": "Seleziona il tuo sistema operativo per iniziare",
+    "version": "Versione attuale: {{version}}",
+    "github": "Vedi tutte le versioni su GitHub",
+    "systems": {
+      "windows": {
+        "title": "Windows",
+        "subtitle": "Supporto per Windows 10 e superiori",
+        "version": "Windows {{arch}}"
+      },
+      "macos": {
+        "title": "macOS",
+        "subtitle": "Supporto per macOS 10.13 e superiori",
+        "version": "macOS {{arch}}"
+      },
+      "linux": {
+        "title": "Linux",
+        "subtitle": "Supporto per le principali distribuzioni Linux",
+        "version": "Linux {{arch}}"
+      }
+    }
+  },
+  "demo": {
+    "title": "Scenari di applicazione DeepChat",
+    "subtitle": "Scopri come DeepChat migliora la tua produttività in vari scenari di lavoro",
+    "videoButton": "Guarda il video demo",
+    "features": "Funzionalità",
+    "caseSample": "Caso di studio",
+    "watchVideo": "Guarda il video",
+    "categories": {
+      "office": {
+        "title": "Ufficio e produttività",
+        "description": "Ottimizza le tue attività d'ufficio quotidiane con l'assistenza dell'IA"
+      },
+      "creative": {
+        "title": "Lavoro creativo",
+        "description": "Stimola il tuo processo creativo con suggerimenti intelligenti"
+      },
+      "research": {
+        "title": "Ricerca e analisi",
+        "description": "Approfondisci i dati e le conoscenze con potenti strumenti IA"
+      },
+      "team": {
+        "title": "Collaborazione di team",
+        "description": "Migliora la produttività e la comunicazione del team"
+      }
+    },
+    "scenarios": {
+      "office": {
+        "documentProcessing": {
+          "title": "Elaborazione documenti",
+          "description": "Estrai, riassumi e organizza automaticamente le informazioni da vari formati di documenti",
+          "features": [
+            "Estrai informazioni chiave da PDF, documenti Word e presentazioni",
+            "Genera riassunti concisi di documenti lunghi",
+            "Converti dati non strutturati in formati strutturati",
+            "Traduci documenti tra più lingue"
+          ],
+          "caseSample": "Un responsabile marketing deve esaminare 20 report di feedback clienti. DeepChat estrae rapidamente sentimenti e suggerimenti chiave da ogni report, risparmiando ore di lettura manuale."
+        },
+        "meetingAssistant": {
+          "title": "Assistente riunioni",
+          "description": "Ottieni il massimo dalle tue riunioni con l'assistenza dell'IA",
+          "features": [
+            "Genera ordini del giorno basati su discussioni precedenti",
+            "Trascrivi e riassumi il contenuto delle riunioni in tempo reale",
+            "Crea liste di azioni con responsabilità assegnate",
+            "Tieni traccia dei punti aperti delle riunioni precedenti"
+          ],
+          "caseSample": "Durante una riunione di pianificazione progetto, DeepChat trascrive la discussione e crea automaticamente una lista di azioni con scadenze, inviata a tutti i partecipanti."
+        }
+      },
+      "creative": {
+        "contentCreation": {
+          "title": "Creazione contenuti",
+          "description": "Crea contenuti coinvolgenti con suggerimenti e miglioramenti assistiti dall'IA",
+          "features": [
+            "Genera piani per articoli, report e presentazioni",
+            "Suggerisci miglioramenti per chiarezza, coinvolgimento e tono",
+            "Crea varianti di contenuto per diversi pubblici",
+            "Aiuta con grammatica, stile e formattazione"
+          ],
+          "caseSample": "Un content writer che scrive articoli blog usa DeepChat per generare multiple opzioni di titoli e suggerire miglioramenti strutturali per un maggiore coinvolgimento."
+        },
+        "learningEducation": {
+          "title": "Apprendimento e istruzione",
+          "description": "Accelera l'apprendimento e l'istruzione con assistenza IA personalizzata",
+          "features": [
+            "Crea materiale didattico personalizzato",
+            "Genera esercizi pratici e quiz",
+            "Fornisci spiegazioni per concetti complessi",
+            "Suggerisci percorsi di apprendimento basati su interessi e obiettivi"
+          ],
+          "caseSample": "Un insegnante usa DeepChat per creare esercizi personalizzati per studenti con diversi bisogni di apprendimento, adattando il livello di difficoltà per ogni studente."
+        }
+      },
+      "research": {
+        "dataAnalysis": {
+          "title": "Analisi dati",
+          "description": "Scopri insight nei tuoi dati con potenti strumenti di analisi IA",
+          "features": [
+            "Analizza dataset per identificare pattern e tendenze",
+            "Genera visualizzazioni dati complesse",
+            "Suggerisci approcci statistici per diversi tipi di dati",
+            "Spiega i risultati dei dati in linguaggio semplice"
+          ],
+          "caseSample": "Un analista commerciale carica dati di vendita in DeepChat, che identifica rapidamente tendenze stagionali e segmenti di clienti che non erano evidenti prima."
+        },
+        "marketResearch": {
+          "title": "Ricerca di mercato",
+          "description": "Resta aggiornato sulle tendenze di mercato con assistenza di ricerca IA",
+          "features": [
+            "Aggrega e analizza report di settore e notizie",
+            "Identifica tendenze emergenti e movimenti dei competitor",
+            "Genera analisi competitive",
+            "Riassumi le condizioni di mercato per diverse regioni"
+          ],
+          "caseSample": "Un product manager usa DeepChat per analizzare gli sviluppi attuali del settore e aiuta a identificare una lacuna di mercato che porta a una nuova funzionalità di prodotto di successo."
+        }
+      },
+      "team": {
+        "projectManagement": {
+          "title": "Gestione progetti",
+          "description": "Mantieni i progetti in carreggiata con un assistente di gestione progetti intelligente",
+          "features": [
+            "Genera timeline di progetto e milestone",
+            "Traccia i progressi e segnala potenziali ritardi",
+            "Suggerisci ottimizzazioni di allocazione risorse",
+            "Crea report di stato per gli stakeholder"
+          ],
+          "caseSample": "Un project manager usa DeepChat per analizzare lo stato attuale del progetto, identificare potenziali colli di bottiglia e suggerire riassegnazioni di task per rispettare le scadenze."
+        },
+        "teamCommunication": {
+          "title": "Comunicazione di team",
+          "description": "Migliora la comunicazione di team con assistenza IA",
+          "features": [
+            "Redigi email e comunicazioni professionali",
+            "Riassumi lunghi thread di discussione e conversazioni email",
+            "Suggerisci risposte a richieste frequenti",
+            "Facilita la comunicazione di team tra lingue"
+          ],
+          "caseSample": "Un team multinazionale usa DeepChat per facilitare la comunicazione tra membri che parlano lingue diverse, offrendo traduzione in tempo reale durante le riunioni virtuali."
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto a potenziare la tua produttività?",
+      "description": "Scarica DeepChat oggi e scopri la potenza dell'IA nel tuo lavoro quotidiano.",
+      "button": "Scarica ora"
+    }
+  }
+} 
