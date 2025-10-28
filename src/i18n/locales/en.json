@@ -203,7 +203,11 @@
   "download": {
     "title": "Download DeepChat",
     "subtitle": "Choose your operating system to get started",
-    "version": "Current Version: {{version}}",
+    "version": "Current {{channel}} Version: {{version}}",
+    "channels": {
+      "release": "Stable",
+      "canary": "Canary"
+    },
     "github": "View All Versions on GitHub",
     "systems": {
       "windows": {

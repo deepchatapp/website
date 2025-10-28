@@ -235,7 +235,11 @@
   "download": {
     "title": "DeepChat herunterladen",
     "subtitle": "Wählen Sie Ihr Betriebssystem, um zu beginnen",
-    "version": "Aktuelle Version: {{version}}",
+    "version": "Aktuelle {{channel}}-Version: {{version}}",
+    "channels": {
+      "release": "Stabil",
+      "canary": "Canary"
+    },
     "github": "Alle Versionen auf GitHub anzeigen",
     "systems": {
       "windows": {

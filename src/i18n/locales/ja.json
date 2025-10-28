@@ -196,7 +196,11 @@
   "download": {
     "title": "DeepChatをダウンロード",
     "subtitle": "お使いのオペレーティングシステムを選択して開始",
-    "version": "現在のバージョン: {{version}}",
+    "version": "現在の{{channel}}バージョン: {{version}}",
+    "channels": {
+      "release": "安定版",
+      "canary": "カナリア版"
+    },
     "github": "GitHubで全バージョンを確認",
     "systems": {
       "windows": {

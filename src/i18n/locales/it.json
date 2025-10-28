@@ -200,7 +200,11 @@
   "download": {
     "title": "Scarica DeepChat",
     "subtitle": "Seleziona il tuo sistema operativo per iniziare",
-    "version": "Versione attuale: {{version}}",
+    "version": "Versione {{channel}} attuale: {{version}}",
+    "channels": {
+      "release": "Stabile",
+      "canary": "Canary"
+    },
     "github": "Vedi tutte le versioni su GitHub",
     "systems": {
       "windows": {

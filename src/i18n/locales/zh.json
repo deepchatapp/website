@@ -199,7 +199,11 @@
   "download": {
     "title": "下载 DeepChat",
     "subtitle": "选择您的操作系统开始使用",
-    "version": "当前版本：{{version}}",
+    "version": "当前{{channel}}：{{version}}",
+    "channels": {
+      "release": "正式版",
+      "canary": "金丝雀版"
+    },
     "github": "在 GitHub 上查看所有版本",
     "systems": {
       "windows": {

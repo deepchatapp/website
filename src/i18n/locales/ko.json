@@ -196,7 +196,11 @@
   "download": {
     "title": "DeepChat 다운로드",
     "subtitle": "사용 중인 운영체제를 선택하여 시작하세요",
-    "version": "현재 버전: {{version}}",
+    "version": "현재 {{channel}} 버전: {{version}}",
+    "channels": {
+      "release": "정식",
+      "canary": "카나리"
+    },
     "github": "GitHub에서 모든 버전 확인",
     "systems": {
       "windows": {
