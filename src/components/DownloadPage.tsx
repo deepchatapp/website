@@ -2,7 +2,7 @@ import React from 'react';
 import { Download, MonitorSmartphone, Apple, MonitorDown, Github } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-const CURRENT_VERSION = 'v0.0.16';
+const CURRENT_VERSION = 'v0.4.2';
 const CDN_RELEASE_BASE = `https://cdn.deepchatai.cn/download/${CURRENT_VERSION}`;
 
 const getDownloadUrl = (platform: string) => `${CDN_RELEASE_BASE}/DeepChat-${CURRENT_VERSION.substring(1)}-${platform}`;
