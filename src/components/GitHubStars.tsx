@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Star } from 'lucide-react';
 
 interface GitHubStarsProps {
@@ -12,14 +12,29 @@ function GitHubStars({ repo = "thinkinaixyz/deepchat" }: GitHubStarsProps) {
 
   useEffect(() => {
     async function fetchStars() {
+      const CACHE_KEY = `github_stars_${repo}`;
+      const CACHE_DURATION = 3600 * 1000; // 1 hour
+      const FALLBACK_STARS = 4900;
+
       try {
         setLoading(true);
         setError(false);
-        
+
+        // Check cache first
+        const cached = localStorage.getItem(CACHE_KEY);
+        if (cached) {
+          const { count, timestamp } = JSON.parse(cached);
+          if (Date.now() - timestamp < CACHE_DURATION) {
+            setStars(count);
+            setLoading(false);
+            return;
+          }
+        }
+
         const headers: HeadersInit = {
           'Accept': 'application/vnd.github.v3+json',
         };
-        
+
         // 如果有设置 GITHUB_TOKEN 环境变量，则使用它
         const token = import.meta.env.VITE_GITHUB_TOKEN;
         if (token) {
@@ -37,13 +52,27 @@ function GitHubStars({ repo = "thinkinaixyz/deepchat" }: GitHubStarsProps) {
         const data = await response.json();
         if (typeof data.stargazers_count === 'number') {
           setStars(data.stargazers_count);
+          // Update cache
+          localStorage.setItem(CACHE_KEY, JSON.stringify({
+            count: data.stargazers_count,
+            timestamp: Date.now()
+          }));
         } else {
           throw new Error('Invalid response format');
         }
       } catch (error) {
         console.error('Error fetching GitHub stars:', error);
-        setError(true);
-        setStars(null);
+        // Try to use cached value even if expired
+        const cached = localStorage.getItem(CACHE_KEY);
+        if (cached) {
+          const { count } = JSON.parse(cached);
+          setStars(count);
+        } else {
+          // Fallback to hardcoded value
+          setStars(FALLBACK_STARS);
+        }
+        // Don't show error state in UI, just show fallback/cached
+        setError(false);
       } finally {
         setLoading(false);
       }
@@ -62,7 +91,7 @@ function GitHubStars({ repo = "thinkinaixyz/deepchat" }: GitHubStarsProps) {
   }
 
   return (
-    <a 
+    <a
       href={`https://github.com/${repo}`}
       target="_blank"
       rel="noopener noreferrer"
