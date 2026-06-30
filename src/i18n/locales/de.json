@@ -52,7 +52,7 @@
   },
   "hero": {
     "title": "DeepChat - Ihr KI-Assistent auf dem Desktop",
-    "subtitle": "Schnell, fokussiert und für tiefes Arbeiten konzipiert. DeepChat bringt die Kraft der KI mit Privatsphäre und Effizienz auf Ihren Desktop und wird zu Ihrem idealen Begleiter für produktives Arbeiten.",
+    "subtitle": "Schnell, fokussiert und für Deep Work konzipiert. DeepChat ist ein transparenter, quelloffener, lokal-first Agent-Client.",
     "features": [
       "Blitzschnelle Reaktion - Native App-Leistung für nahtlose Interaktion",
       "Fokus auf tiefes Arbeiten - Für eine produktive und ablenkungsfreie Arbeitsumgebung",
@@ -63,24 +63,8 @@
   },
   "modelProviders": {
     "title": "Aktuell unterstützte Modellanbieter",
-    "subtitle": "DeepChat ist mit allen führenden KI-Modellanbietern kompatibel",
-    "compatibleText": "Kompatibel mit jedem Modellanbieter im OpenAI/Gemini API-Format",
-    "providers": [
-      { "name": "Ollama", "logo": "/models/ollama.svg" },
-      { "name": "Deepseek", "logo": "/models/deepseek.svg" },
-      { "name": "Silicon", "logo": "/models/silicon.svg" },
-      { "name": "QwenLM", "logo": "/models/qwenlm.svg" },
-      { "name": "Doubao", "logo": "/models/doubao.svg" },
-      { "name": "MiniMax", "logo": "/models/minimax.svg" },
-      { "name": "302.AI", "logo": "/models/302ai.svg" },
-      { "name": "PPIO", "logo": "/models/ppio.svg" },
-      { "name": "OpenAI", "logo": "/models/openai.svg" },
-      { "name": "Gemini", "logo": "/models/gemini.svg" },
-      { "name": "GitHub Models", "logo": "/models/github.svg" },
-      { "name": "Moonshot", "logo": "/models/moonshot.svg" },
-      { "name": "OpenRouter", "logo": "/models/openrouter.svg" },
-      { "name": "Azure OpenAI", "logo": "/models/azure.svg" }
-    ]
+    "subtitle": "Nutzen Sie jedes Modell, das Sie möchten",
+    "compatibleText": "Kompatibel mit jedem Modellanbieter im OpenAI/Anthropic/Gemini API-Format"
   },
   "scenarios": {
     "title": "Duale Anwendungsszenarien",
@@ -238,7 +222,7 @@
     "version": "Aktuelle {{channel}}-Version: {{version}}",
     "channels": {
       "release": "Stabil",
-      "canary": "Canary"
+      "beta": "Beta"
     },
     "github": "Alle Versionen auf GitHub anzeigen",
     "systems": {

@@ -13,7 +13,7 @@
   },
   "hero": {
     "title": "DeepChat - デスクトップAIパートナー",
-    "subtitle": "高速、集中、ディープワークのために設計。DeepChatはAIの強力な機能をデスクトップに提供し、プライバシーと効率性を両立させ、生産的な作業のための理想的なパートナーとなります。",
+    "subtitle": "高速、集中、ディープワークのために設計。DeepChat は透明でオープンソース、ローカルファーストの Agent クライアントです。",
     "features": [
       "超高速レスポンス - ネイティブアプリのパフォーマンスでシームレスな対話を実現",
       "ディープワークフォーカス - 生産的で集中できる作業環境のために設計",
@@ -24,24 +24,8 @@
   },
   "modelProviders": {
     "title": "現在サポートされているモデルプロバイダー",
-    "subtitle": "DeepChatは主要なAIモデルプロバイダーと互換性があります",
-    "compatibleText": "openai/gemini API形式のモデルプロバイダーと互換性があります",
-    "providers": [
-      { "name": "Ollama", "logo": "/models/ollama.svg" },
-      { "name": "Deepseek", "logo": "/models/deepseek.svg" },
-      { "name": "Silicon", "logo": "/models/silicon.svg" },
-      { "name": "QwenLM", "logo": "/models/qwenlm.svg" },
-      { "name": "Doubao", "logo": "/models/doubao.svg" },
-      { "name": "MiniMax", "logo": "/models/minimax.svg" },
-      { "name": "302.AI", "logo": "/models/302ai.svg" },
-      { "name": "PPIO", "logo": "/models/ppio.svg" },
-      { "name": "OpenAI", "logo": "/models/openai.svg" },
-      { "name": "Gemini", "logo": "/models/gemini.svg" },
-      { "name": "GitHub Models", "logo": "/models/github.svg" },
-      { "name": "Moonshot", "logo": "/models/moonshot.svg" },
-      { "name": "OpenRouter", "logo": "/models/openrouter.svg" },
-      { "name": "Azure OpenAI", "logo": "/models/azure.svg" }
-    ]
+    "subtitle": "使いたいモデルを自由に使えます",
+    "compatibleText": "openai/anthropic/gemini API形式のモデルプロバイダーと互換性があります"
   },
   "scenarios": {
     "title": "デュアルアプリケーションシナリオ",
@@ -199,7 +183,7 @@
     "version": "現在の{{channel}}バージョン: {{version}}",
     "channels": {
       "release": "安定版",
-      "canary": "カナリア版"
+      "beta": "ベータ版"
     },
     "github": "GitHubで全バージョンを確認",
     "systems": {

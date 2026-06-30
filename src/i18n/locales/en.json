@@ -17,7 +17,7 @@
   },
   "hero": {
     "title": "DeepChat - Your AI Partner on Desktop",
-    "subtitle": "Fast, focused, and designed for deep work. DeepChat brings the power of AI to your desktop with privacy and efficiency, making it your ideal companion for productive work.",
+    "subtitle": "Fast, focused, and designed for deep work. DeepChat is a transparent, open-source, local-first Agent client.",
     "features": [
       "Lightning-Fast Response - Native app performance for seamless interaction",
       "Deep Work Focus - Designed for productive, distraction-free work environment",
@@ -28,24 +28,8 @@
   },
   "modelProviders": {
     "title": "Currently Supported Model Providers",
-    "subtitle": "DeepChat is compatible with all major AI model providers",
-    "compatibleText": "Compatible with any model provider in openai/gemini API format",
-    "providers": [
-      { "name": "Ollama", "logo": "/models/ollama.svg" },
-      { "name": "Deepseek", "logo": "/models/deepseek.svg" },
-      { "name": "Silicon", "logo": "/models/silicon.svg" },
-      { "name": "QwenLM", "logo": "/models/qwenlm.svg" },
-      { "name": "Doubao", "logo": "/models/doubao.svg" },
-      { "name": "MiniMax", "logo": "/models/minimax.svg" },
-      { "name": "302.AI", "logo": "/models/302ai.svg" },
-      { "name": "PPIO", "logo": "/models/ppio.svg" },
-      { "name": "OpenAI", "logo": "/models/openai.svg" },
-      { "name": "Gemini", "logo": "/models/gemini.svg" },
-      { "name": "GitHub Models", "logo": "/models/github.svg" },
-      { "name": "Moonshot", "logo": "/models/moonshot.svg" },
-      { "name": "OpenRouter", "logo": "/models/openrouter.svg" },
-      { "name": "Azure OpenAI", "logo": "/models/azure.svg" }
-    ]
+    "subtitle": "Use any model you want",
+    "compatibleText": "Compatible with any model provider in openai/anthropic/gemini API format"
   },
   "scenarios": {
     "title": "Dual Application Scenarios",
@@ -206,7 +190,7 @@
     "version": "Current {{channel}} Version: {{version}}",
     "channels": {
       "release": "Stable",
-      "canary": "Canary"
+      "beta": "Beta"
     },
     "github": "View All Versions on GitHub",
     "systems": {

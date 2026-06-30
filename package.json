@@ -3,10 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "npm@11.16.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 127.0.0.1 --port 5174",
+    "prebuild": "node scripts/update-download-cache.mjs",
     "build": "vite build",
-    "lint": "eslint .",
+    "download-cache": "node scripts/update-download-cache.mjs",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -25,7 +28,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
+    "@vitejs/plugin-react": "^6.0.3",
     "autoprefixer": "^10.4.18",
     "eslint": "^9.9.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
@@ -35,6 +38,6 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
-    "vite": "^5.4.2"
+    "vite": "^8.1.0"
   }
 }

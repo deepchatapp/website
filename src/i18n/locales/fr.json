@@ -52,7 +52,7 @@
   },
   "hero": {
     "title": "DeepChat - Votre assistant IA de bureau",
-    "subtitle": "Rapide, concentré et conçu pour un travail en profondeur. DeepChat apporte la puissance de l'IA avec confidentialité et efficacité sur votre bureau, devenant votre compagnon idéal pour un travail productif.",
+    "subtitle": "Rapide, ciblé et conçu pour le travail en profondeur. DeepChat est un client Agent transparent, open source et local-first.",
     "features": [
       "Réponse éclair - Performance d'application native pour une interaction fluide",
       "Concentration sur le travail en profondeur - Pour un environnement de travail productif et sans distraction",
@@ -63,24 +63,8 @@
   },
   "modelProviders": {
     "title": "Fournisseurs de modèles actuellement pris en charge",
-    "subtitle": "DeepChat est compatible avec tous les principaux fournisseurs de modèles d'IA",
-    "compatibleText": "Compatible avec tout fournisseur de modèle au format API OpenAI/Gemini",
-    "providers": [
-      { "name": "Ollama", "logo": "/models/ollama.svg" },
-      { "name": "Deepseek", "logo": "/models/deepseek.svg" },
-      { "name": "Silicon", "logo": "/models/silicon.svg" },
-      { "name": "QwenLM", "logo": "/models/qwenlm.svg" },
-      { "name": "Doubao", "logo": "/models/doubao.svg" },
-      { "name": "MiniMax", "logo": "/models/minimax.svg" },
-      { "name": "302.AI", "logo": "/models/302ai.svg" },
-      { "name": "PPIO", "logo": "/models/ppio.svg" },
-      { "name": "OpenAI", "logo": "/models/openai.svg" },
-      { "name": "Gemini", "logo": "/models/gemini.svg" },
-      { "name": "GitHub Models", "logo": "/models/github.svg" },
-      { "name": "Moonshot", "logo": "/models/moonshot.svg" },
-      { "name": "OpenRouter", "logo": "/models/openrouter.svg" },
-      { "name": "Azure OpenAI", "logo": "/models/azure.svg" }
-    ]
+    "subtitle": "Utilisez le modèle que vous voulez",
+    "compatibleText": "Compatible avec tout fournisseur de modèle au format API OpenAI/Anthropic/Gemini"
   },
   "scenarios": {
     "title": "Scénarios d'application doubles",
@@ -238,7 +222,7 @@
     "version": "Version {{channel}} actuelle : {{version}}",
     "channels": {
       "release": "Stable",
-      "canary": "Canary"
+      "beta": "Beta"
     },
     "github": "Voir toutes les versions sur GitHub",
     "systems": {

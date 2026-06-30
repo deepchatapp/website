@@ -52,7 +52,7 @@
   },
   "hero": {
     "title": "DeepChat - Tu asistente de IA de escritorio",
-    "subtitle": "Rápido, enfocado y diseñado para el trabajo profundo. DeepChat lleva el poder de la IA con privacidad y eficiencia a tu escritorio, convirtiéndose en tu compañero ideal para un trabajo productivo.",
+    "subtitle": "Rápido, enfocado y diseñado para el trabajo profundo. DeepChat es un cliente Agent transparente, de código abierto y local-first.",
     "features": [
       "Respuesta instantánea - Rendimiento de aplicación nativa para una interacción fluida",
       "Enfoque en el trabajo profundo - Para un entorno de trabajo productivo y sin distracciones",
@@ -63,24 +63,8 @@
   },
   "modelProviders": {
     "title": "Proveedores de modelos actualmente soportados",
-    "subtitle": "DeepChat es compatible con todos los principales proveedores de modelos de IA",
-    "compatibleText": "Compatible con cualquier proveedor de modelos en formato API OpenAI/Gemini",
-    "providers": [
-      { "name": "Ollama", "logo": "/models/ollama.svg" },
-      { "name": "Deepseek", "logo": "/models/deepseek.svg" },
-      { "name": "Silicon", "logo": "/models/silicon.svg" },
-      { "name": "QwenLM", "logo": "/models/qwenlm.svg" },
-      { "name": "Doubao", "logo": "/models/doubao.svg" },
-      { "name": "MiniMax", "logo": "/models/minimax.svg" },
-      { "name": "302.AI", "logo": "/models/302ai.svg" },
-      { "name": "PPIO", "logo": "/models/ppio.svg" },
-      { "name": "OpenAI", "logo": "/models/openai.svg" },
-      { "name": "Gemini", "logo": "/models/gemini.svg" },
-      { "name": "GitHub Models", "logo": "/models/github.svg" },
-      { "name": "Moonshot", "logo": "/models/moonshot.svg" },
-      { "name": "OpenRouter", "logo": "/models/openrouter.svg" },
-      { "name": "Azure OpenAI", "logo": "/models/azure.svg" }
-    ]
+    "subtitle": "Usa el modelo que quieras",
+    "compatibleText": "Compatible con cualquier proveedor de modelos en formato API OpenAI/Anthropic/Gemini"
   },
   "scenarios": {
     "title": "Escenarios de aplicación dual",
@@ -238,7 +222,7 @@
     "version": "Versión {{channel}} actual: {{version}}",
     "channels": {
       "release": "Estable",
-      "canary": "Canary"
+      "beta": "Beta"
     },
     "github": "Ver todas las versiones en GitHub",
     "systems": {

@@ -13,7 +13,7 @@
   },
   "hero": {
     "title": "DeepChat - 您的桌面AI伙伴",
-    "subtitle": "快速、专注，为深度工作而设计。DeepChat将AI的强大功能带到您的桌面，兼顾隐私和效率，成为您高效工作的理想伴侣。",
+    "subtitle": "快速、专注，为深度工作而设计。DeepChat 是透明开源本地优先的 Agent 客户端",
     "features": [
       "闪电般的响应速度 - 原生应用性能，实现无缝交互",
       "深度工作专注 - 为高效、无干扰工作环境而设计",
@@ -24,24 +24,8 @@
   },
   "modelProviders": {
     "title": "当前支持的模型提供商",
-    "subtitle": "DeepChat兼容所有主流AI模型提供商",
-    "compatibleText": "兼容任何符合openai/gemini API格式的模型提供商",
-    "providers": [
-      { "name": "Ollama", "logo": "/models/ollama.svg" },
-      { "name": "深度求索", "logo": "/models/deepseek.svg" },
-      { "name": "硅基流动", "logo": "/models/silicon.svg" },
-      { "name": "千问", "logo": "/models/qwenlm.svg" },
-      { "name": "豆包", "logo": "/models/doubao.svg" },
-      { "name": "极速", "logo": "/models/minimax.svg" },
-      { "name": "302.AI", "logo": "/models/302ai.svg" },
-      { "name": "PPIO", "logo": "/models/ppio.svg" },
-      { "name": "OpenAI", "logo": "/models/openai.svg" },
-      { "name": "谷歌Gemini", "logo": "/models/gemini.svg" },
-      { "name": "GitHub模型", "logo": "/models/github.svg" },
-      { "name": "月之暗面", "logo": "/models/moonshot.svg" },
-      { "name": "OpenRouter", "logo": "/models/openrouter.svg" },
-      { "name": "微软Azure", "logo": "/models/azure.svg" }
-    ]
+    "subtitle": "想用什么模型就用什么模型",
+    "compatibleText": "兼容任何符合openai/anthropic/gemini API格式的模型提供商"
   },
   "scenarios": {
     "title": "双重场景应用",
@@ -202,7 +186,7 @@
     "version": "当前{{channel}}：{{version}}",
     "channels": {
       "release": "正式版",
-      "canary": "金丝雀版"
+      "beta": "Beta 版"
     },
     "github": "在 GitHub 上查看所有版本",
     "systems": {
