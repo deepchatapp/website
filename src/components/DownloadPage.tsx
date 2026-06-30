@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 const GITHUB_RELEASES_ENDPOINT = 'https://api.github.com/repos/ThinkInAIXYZ/deepchat/releases?per_page=30';
 const GITHUB_RELEASES_URL = 'https://github.com/ThinkInAIXYZ/deepchat/releases';
+const DOWNLOAD_CACHE_URL = '/download-cache.json';
 const CHANNELS = ['release', 'beta'] as const;
 
 type Channel = (typeof CHANNELS)[number];
@@ -25,6 +26,10 @@ type GithubRelease = {
   draft: boolean;
   published_at: string;
   assets: GithubReleaseAsset[];
+};
+
+type DownloadCache = {
+  channels?: Partial<Record<Channel, GithubRelease>>;
 };
 
 const DOWNLOADS: Record<'windows' | 'macos' | 'linux', { versions: DownloadConfig[] }> = {
@@ -98,6 +103,16 @@ function DownloadPage() {
     let isMounted = true;
 
     const fetchReleases = async () => {
+      try {
+        const cacheResponse = await fetch(DOWNLOAD_CACHE_URL, { cache: 'no-cache' });
+        if (cacheResponse.ok) {
+          const cache: DownloadCache = await cacheResponse.json();
+          if (isMounted && cache.channels) setReleases(cache.channels);
+        }
+      } catch (error) {
+        console.warn('Failed to fetch cached download releases', error);
+      }
+
       try {
         const response = await fetch(GITHUB_RELEASES_ENDPOINT, {
           headers: { Accept: 'application/vnd.github+json' }

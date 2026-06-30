@@ -6,7 +6,9 @@
   "packageManager": "npm@11.16.0",
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 5174",
+    "prebuild": "node scripts/update-download-cache.mjs",
     "build": "vite build",
+    "download-cache": "node scripts/update-download-cache.mjs",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "preview": "vite preview"
   },
