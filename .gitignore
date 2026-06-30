@@ -1,6 +1,7 @@
 node_modules/
 dist/
 *.tsbuildinfo
+public/download-cache.json.tmp
 .DS_Store
 .env
 .env.*

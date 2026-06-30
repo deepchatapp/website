@@ -71,7 +71,7 @@ const MODEL_PROVIDERS = [
   { name: 'GitHub Models', logo: '/models/github.svg', href: 'https://github.com/marketplace/models' },
   { name: 'LM Studio', logo: '/models/lmstudio.svg', href: 'https://lmstudio.ai/docs/app' },
   { name: 'Hunyuan', logo: '/models/hunyuan-color.svg', href: 'https://cloud.tencent.com/product/hunyuan' },
-  { name: '302.AI', logo: '/models/302ai.svg', href: 'https://302.ai' },
+  { name: '302.AI', logo: '/models/302ai.svg', href: 'https://302ai.cn/' },
   { name: 'Together', logo: '/models/together-color.svg', href: 'https://www.together.ai/' },
   { name: 'Poe', logo: '/models/poe-color.svg', href: 'https://poe.com/' },
   { name: 'Vercel AI Gateway', logo: '/models/vercel.svg', href: 'https://vercel.com/ai' },
