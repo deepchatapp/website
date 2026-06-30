@@ -1,4 +1,3 @@
-import React from 'react';
 import { MessageCircle, Send, Mail } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -102,4 +101,4 @@ function ContactPage() {
   );
 }
 
-export default ContactPage; 
+export default ContactPage;

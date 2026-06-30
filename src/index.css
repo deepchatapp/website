@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes model-provider-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.model-provider-row {
+  overflow: hidden;
+  padding-block: 0.25rem;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+
+.model-provider-track {
+  display: flex;
+  width: max-content;
+  gap: 0.75rem;
+  animation: model-provider-marquee 42s linear infinite;
+}
+
+.model-provider-track-reverse {
+  animation-direction: reverse;
+  animation-duration: 48s;
+}
+
+.model-provider-row:hover .model-provider-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .model-provider-row {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .model-provider-track {
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: none;
+  }
+}

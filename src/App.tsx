@@ -49,10 +49,59 @@ interface ScenarioCaseProps {
 
 type DeepSeekVersion = 'personal' | 'enterprise';
 
+const MODEL_PROVIDERS = [
+  { name: 'Deepseek', logo: '/models/deepseek-color.svg', href: 'https://deepseek.com/' },
+  { name: 'Moonshot', logo: '/models/moonshot.svg', href: 'https://moonshot.ai/' },
+  { name: 'OpenAI', logo: '/models/openai.svg', href: 'https://openai.com/' },
+  { name: 'Gemini', logo: '/models/gemini-color.svg', href: 'https://gemini.google.com/' },
+  { name: 'Ollama', logo: '/models/ollama.svg', href: 'https://ollama.com/' },
+  { name: 'Qiniu', logo: '/models/qiniu.svg', href: 'https://www.qiniu.com' },
+  { name: 'New API', logo: '/models/newapi.svg', href: 'https://www.newapi.ai/' },
+  { name: 'Grok', logo: '/models/grok.svg', href: 'https://x.ai/' },
+  { name: 'Zhipu', logo: '/models/zhipu-color.svg', href: 'https://open.bigmodel.cn/' },
+  { name: 'PPIO', logo: '/models/ppio-color.svg', href: 'https://ppinfra.com/' },
+  { name: 'MiniMax', logo: '/models/minimax-color.svg', href: 'https://platform.minimaxi.com/' },
+  { name: 'Fireworks', logo: '/models/fireworks-color.svg', href: 'https://fireworks.ai/' },
+  { name: 'AIHubMix', logo: '/models/aihubmix.png', href: 'https://aihubmix.com/' },
+  { name: 'Doubao', logo: '/models/doubao-color.svg', href: 'https://console.volcengine.com/ark/' },
+  { name: 'DashScope', logo: '/models/alibabacloud-color.svg', href: 'https://www.aliyun.com/product/bailian' },
+  { name: 'Groq', logo: '/models/groq.svg', href: 'https://groq.com/' },
+  { name: 'JieKou.AI', logo: '/models/jiekou-color.svg', href: 'https://jiekou.ai?utm_source=github_deepchat' },
+  { name: 'ZenMux', logo: '/models/zenmux-color.svg', href: 'https://zenmux.ai/' },
+  { name: 'GitHub Models', logo: '/models/github.svg', href: 'https://github.com/marketplace/models' },
+  { name: 'LM Studio', logo: '/models/lmstudio.svg', href: 'https://lmstudio.ai/docs/app' },
+  { name: 'Hunyuan', logo: '/models/hunyuan-color.svg', href: 'https://cloud.tencent.com/product/hunyuan' },
+  { name: '302.AI', logo: '/models/302ai.svg', href: 'https://302.ai' },
+  { name: 'Together', logo: '/models/together-color.svg', href: 'https://www.together.ai/' },
+  { name: 'Poe', logo: '/models/poe-color.svg', href: 'https://poe.com/' },
+  { name: 'Vercel AI Gateway', logo: '/models/vercel.svg', href: 'https://vercel.com/ai' },
+  { name: 'OpenRouter', logo: '/models/openrouter.svg', href: 'https://openrouter.ai/' },
+  { name: 'Azure OpenAI', logo: '/models/azure-color.svg', href: 'https://azure.microsoft.com/en-us/products/ai-services/openai-service' },
+  { name: 'TokenFlux', logo: '/models/tokenflux-color.svg', href: 'https://tokenflux.ai/' },
+  { name: 'BurnCloud', logo: '/models/burncloud-color.svg', href: 'https://www.burncloud.com/' },
+  { name: 'OpenAI Responses', logo: '/models/openai.svg', href: 'https://openai.com/' },
+  { name: 'CherryIn', logo: '/models/cherryin-color.png', href: 'https://open.cherryin.ai/console' },
+  { name: 'ModelScope', logo: '/models/modelscope-color.svg', href: 'https://modelscope.cn/' },
+  { name: 'AWS Bedrock', logo: '/models/aws-bedrock.svg', href: 'https://aws.amazon.com/bedrock/' },
+  { name: 'Voice.ai', logo: '/models/voiceai.svg', href: 'https://voice.ai/' },
+  { name: 'Vertex AI', logo: '/models/vertexai-color.svg', href: 'https://cloud.google.com/vertex-ai' },
+  { name: 'GitHub Copilot', logo: '/models/githubcopilot.svg', href: 'https://github.com/features/copilot' },
+  { name: 'Xiaomi', logo: '/models/xiaomi.png', href: 'https://platform.xiaomimimo.com/#/docs/quick-start/first-api-call' },
+  { name: 'o3.fan', logo: '/models/o3-fan.png', href: 'https://o3.fan' },
+  { name: 'Novita AI', logo: '/models/novitaai.svg', href: 'https://novita.ai/' },
+  { name: 'Astraflow', logo: '/models/astraflow.png', href: 'https://astraflow.ucloud.cn/' },
+  { name: 'Anthropic', logo: '/models/anthropic.svg', href: 'https://www.anthropic.com/' },
+  { name: 'SiliconFlow', logo: '/models/siliconcloud-color.svg', href: 'https://www.siliconflow.cn/' },
+] as const;
+
+const MODEL_PROVIDER_ROWS = [
+  MODEL_PROVIDERS.slice(0, Math.ceil(MODEL_PROVIDERS.length / 2)),
+  MODEL_PROVIDERS.slice(Math.ceil(MODEL_PROVIDERS.length / 2)),
+] as const;
+
 const CAROUSEL_IMAGES = [
-  '/introduce/Screen.jpg',
-  '/introduce/Search.jpg',
-  '/introduce/Online-Screenshot.jpg'
+  '/screenshots/deepchat-light.png',
+  '/screenshots/deepchat-dark.png'
 ];
 
 const MainContent: React.FC = () => {
@@ -230,33 +279,42 @@ const MainContent: React.FC = () => {
         </motion.section>
 
         {/* Model Provider Section */}
-        <section className="py-20 border-t border-gray-100 dark:border-gray-800 bg-gradient-to-b from-gray-50/50 to-white dark:from-gray-900/50 dark:to-gray-800">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent mb-6">{t('modelProviders.title')}</h2>
-              <p className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto text-lg">{t('modelProviders.subtitle')}</p>
+        <section className="overflow-hidden border-t border-gray-100 bg-slate-950 py-20 text-white dark:border-gray-800">
+          <div className="mx-auto max-w-7xl px-4">
+            <div className="mb-14 text-center">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.32em] text-primary-dark">{t('modelProviders.title')}</p>
+              <h2 className="mx-auto max-w-3xl text-center text-3xl font-bold md:text-5xl">{t('modelProviders.subtitle')}</h2>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-12 items-center justify-items-center">
-              {(t('modelProviders.providers', { returnObjects: true }) as Array<{ name: string, logo: string }>).map((provider, index) => (
-                <motion.div 
-                  key={index} 
-                  className="group relative flex flex-col items-center"
-                  whileHover={{ scale: 1.05 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <div className="w-20 h-20 flex items-center justify-center bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all p-4">
-                    <img src={provider.logo} alt={provider.name} className="h-12 w-12 object-contain filter dark:invert-0" />
+
+            <div className="space-y-5" aria-label="Supported model providers">
+              {MODEL_PROVIDER_ROWS.map((row, rowIndex) => (
+                <div key={rowIndex} className="model-provider-row">
+                  <div className={`model-provider-track ${rowIndex === 1 ? 'model-provider-track-reverse' : ''}`}>
+                    {[...row, ...row].map((provider, index) => (
+                      <a
+                        key={`${provider.name}-${index}`}
+                        href={provider.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group inline-flex min-w-44 items-center justify-center gap-3 rounded-lg border border-white/10 bg-white/[0.04] px-5 py-3 text-center text-sm font-medium text-gray-300 shadow-sm backdrop-blur transition-colors duration-200 hover:border-primary-dark/60 hover:bg-white/[0.08] hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+                        aria-label={`${provider.name} website`}
+                      >
+                        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/95 p-1.5">
+                          <img src={provider.logo} alt="" className="h-full w-full object-contain" />
+                        </span>
+                        <span className="text-center">{provider.name}</span>
+                      </a>
+                    ))}
                   </div>
-                  <span className="mt-4 text-sm font-medium text-gray-600 dark:text-gray-400 group-hover:text-primary dark:group-hover:text-primary-dark transition-colors">{provider.name}</span>
-                </motion.div>
+                </div>
               ))}
             </div>
 
-            <div className="text-center mt-16">
-              <p className="text-gray-600 dark:text-gray-300 inline-flex items-center text-lg bg-white dark:bg-gray-800 px-6 py-3 rounded-full shadow-sm">
-                <span>{t('modelProviders.compatibleText')}</span>
-                <span className="ml-3 flex-shrink-0 inline-flex h-6 w-6 items-center justify-center rounded-full bg-green-100 dark:bg-green-800">
-                  <Check size={14} className="text-green-600 dark:text-green-200" />
+            <div className="mt-16 text-center">
+              <p className="mx-auto inline-flex max-w-full flex-wrap items-center justify-center gap-3 rounded-lg border border-white/10 bg-white/[0.04] px-5 py-3 text-center text-base leading-relaxed text-gray-300 shadow-sm md:text-lg">
+                <span className="min-w-0 break-words">{t('modelProviders.compatibleText')}</span>
+                <span className="inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-green-400/20">
+                  <Check size={14} className="text-green-300" />
                 </span>
               </p>
             </div>

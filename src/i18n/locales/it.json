@@ -17,7 +17,7 @@
   },
   "hero": {
     "title": "DeepChat - Il tuo assistente IA sul desktop",
-    "subtitle": "Veloce, concentrato e progettato per il lavoro profondo. DeepChat porta la potenza dell'IA sul tuo desktop con privacy ed efficienza, diventando il tuo compagno ideale per un lavoro produttivo.",
+    "subtitle": "Veloce, focalizzato e progettato per il lavoro profondo. DeepChat è un client Agent trasparente, open source e local-first.",
     "features": [
       "Risposta fulminea - Performance da applicazione nativa per un'interazione fluida",
       "Concentrazione sul lavoro profondo - Per un ambiente di lavoro produttivo e senza distrazioni",
@@ -28,24 +28,8 @@
   },
   "modelProviders": {
     "title": "Fornitori di modelli attualmente supportati",
-    "subtitle": "DeepChat è compatibile con tutti i principali fornitori di modelli IA",
-    "compatibleText": "Compatibile con qualsiasi fornitore di modelli in formato API openai/gemini",
-    "providers": [
-      { "name": "Ollama", "logo": "/models/ollama.svg" },
-      { "name": "Deepseek", "logo": "/models/deepseek.svg" },
-      { "name": "Silicon", "logo": "/models/silicon.svg" },
-      { "name": "QwenLM", "logo": "/models/qwenlm.svg" },
-      { "name": "Doubao", "logo": "/models/doubao.svg" },
-      { "name": "MiniMax", "logo": "/models/minimax.svg" },
-      { "name": "302.AI", "logo": "/models/302ai.svg" },
-      { "name": "PPIO", "logo": "/models/ppio.svg" },
-      { "name": "OpenAI", "logo": "/models/openai.svg" },
-      { "name": "Gemini", "logo": "/models/gemini.svg" },
-      { "name": "GitHub Models", "logo": "/models/github.svg" },
-      { "name": "Moonshot", "logo": "/models/moonshot.svg" },
-      { "name": "OpenRouter", "logo": "/models/openrouter.svg" },
-      { "name": "Azure OpenAI", "logo": "/models/azure.svg" }
-    ]
+    "subtitle": "Usa il modello che preferisci",
+    "compatibleText": "Compatibile con qualsiasi fornitore di modelli in formato API openai/anthropic/gemini"
   },
   "scenarios": {
     "title": "Scenari di applicazione doppi",
@@ -203,7 +187,7 @@
     "version": "Versione {{channel}} attuale: {{version}}",
     "channels": {
       "release": "Stabile",
-      "canary": "Canary"
+      "beta": "Beta"
     },
     "github": "Vedi tutte le versioni su GitHub",
     "systems": {
